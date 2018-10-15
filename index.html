@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+    <head>
+        
+        <!-------------------------------- META DATA -------------------------------->
+        
+        <title>SASHA WHITE</title>
+
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" user-scalable="yes">
+        
+        <!------------------------------- STYLE REFS ------------------------------->
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="queries.css">
+        
+        <link rel="stylesheet" href="animate.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="lightbox.css">
+        
+        <!------------------------------ SCRIPT REFS ------------------------------>
+        
+        <script type="text/javascript" src="jquery-3.2.1.js"></script>
+        
+        <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        
+        <script src="lightbox.js"></script>
+  
+    </head>
+    
+    <!-------------------------------------- BODY -------------------------------------->
+    
+    <body onload="onLoadBlur();">
+       
+        <img id="logoimage" src="IMAGES/LOGO.png">
+        
+        <!--------------------------------- HEADER --------------------------------->
+
+        <div id="particles-js"></div>
+
+        <div id="signaturediv" class="focus">
+
+            <div class="focus-mask">
+
+                <div id="sashasignature" class="focus-mask-inner">Sasha White</div>
+
+            </div>
+
+        </div>
+
+        <!--------------- ASK SASHA DIALOG BOX --------------->
+
+        <div id="asksashainputdiv">
+            
+            <img id="asksashaXbutton" src="IMAGES/close.png" onclick="submitSasha();">
+
+            <p id="asksashapar">To ask Sasha one question or to submit your talent resume please fill out this form and click submit. Sasha will look at the message and contact you directly for further conversation.</p>
+
+            <input id="namebox" name="rantname" placeholder="Your Name">
+
+            <input id="emailbox" name="rantemail" placeholder="Your Email">
+            
+            <input id="dateofbirthbox" name="rantdateofbirth" placeholder="Your Date Of Birth">
+            
+            <input id="placeofbirthbox" name="rantplaceofbirth" placeholder="Your Place Of Birth">
+            
+            <input id="timeofbirthbox" name="ranttimeofbirth" placeholder="Your Time Of Birth">
+            
+            <input id="phonenumberbox" name="rantphonenumber" placeholder="Your Phone Number">
+            
+            <input id="subjectbox" name="rantsubject" placeholder="Your Subject">
+            
+            <div id="uploadfilediv">
+                
+                <input id="real-file" type="file" hidden="hidden" />
+                
+                <button id="custom-button" type="button">CHOOSE A FILE</button>
+                    
+                <span id="custom-text">No file chosen, yet.</span>
+                
+            </div>
+
+            <textarea id="messagebox" name="rantmessage" placeholder="Your Message"></textarea>
+
+            <button><a id="submitbutton" onclick="submitSasha();">SEND</a></button>
+
+        </div>
+
+        <!---------------------- VIDEO ---------------------->
+
+        <div id="videodiv1">
+
+            <video src="IMAGES/vid1.mp4" onload="onLoadTimeLapse()" id="timelapsevideo1" muted preload="auto" autoplay="autoplay" loop="loop"></video>
+
+        </div>
+
+        <!---------------------- DIAMONDS ---------------------->
+
+        <div id="slidepicdiv1" class="diamonddivs">
+
+            <img id="slidepicimage1" src="IMAGES/MYSTERIOUS.jpg">
+
+        </div>
+
+        <div id="slidepicdiv2" class="diamonddivs">
+
+            <img id="slidepicimage2" src="IMAGES/MYSTERIOUS.jpg">
+
+        </div>
+
+        <div id="slidepicdiv3" class="diamonddivs">
+
+            <img id="slidepicimage3" src="IMAGES/MYSTERIOUS.jpg">
+
+        </div>
+
+        <div id="slidepicdiv4" class="diamonddivs">
+
+            <img id="slidepicimage4" src="IMAGES/MYSTERIOUS.jpg">
+
+        </div>
+
+        <div id="slidepicdiv5" class="diamonddivs">
+
+            <img id="slidepicimage5" src="IMAGES/MYSTERIOUS.jpg">
+
+        </div>
+
+        <div id="slidepicdiv6" class="diamonddivs">
+
+            <img id="slidepicimage6" src="IMAGES/MYSTERIOUS.jpg">
+
+        </div>
+
+        <div id="slidepicdiv7" class="diamonddivs">
+
+            <img id="slidepicimage7" src="IMAGES/MYSTERIOUS.jpg">
+
+        </div>
+
+        <div id="slidepicdiv8" class="diamonddivs">
+
+            <img id="slidepicimage8" src="IMAGES/MYSTERIOUS.jpg">
+
+        </div>
+
+        <div id="slidepicdiv9" class="diamonddivs">
+
+            <img id="slidepicimage9" src="IMAGES/MYSTERIOUS.jpg">
+
+        </div>
+
+        <!---------------------- PHRASES ---------------------->
+
+        <div class="content">
+            
+            <!----------- HELLO WORLD... ----------->
+
+            <div id="shufflephrase1" class="random1">
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+                <span class="nbr1 ltr1 sl">0</span>
+
+            </div>
+            
+            <!----------- MY NAME IS... ----------->
+
+            <div id="shufflephrase2" class="random2">
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+                <span class="nbr2 ltr2 sl">0</span>
+
+            </div>
+            
+            <!----------- SASHA WHITE! ----------->
+            
+            <div id="shufflephrase3" class="random3">
+            
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+
+                <span class="nbr3 ltr3 sl">0</span>
+                
+            </div>
+            
+            <!----------- I AM FIRST & FOREMOST... ----------->
+
+            <div id="shufflephrase4" class="random4">
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+
+                <span class="nbr4 ltr4 sl">0</span>
+                
+                <span class="nbr4 ltr4 sl">0</span>
+
+            </div>
+            
+            <!----------- A BRAIN FUCKER. ----------->
+
+            <div id="shufflephrase5" class="random5">
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+                <span class="nbr5 ltr5 sl">0</span>
+
+            </div>
+            
+            <!----------- A SAVIOR OF PEOPLE. ----------->
+
+            <div id="shufflephrase6" class="random6">
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+                
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+                
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+                <span class="nbr6 ltr6 sl">0</span>
+
+            </div>
+            
+            <!----------- A TALENT AGENT. ----------->
+
+            <div id="shufflephrase7" class="random7">
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+                
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+                <span class="nbr7 ltr7 sl">0</span>
+
+            </div>
+            
+            <!----------- AND ABOVE ALL ELSE... ----------->
+
+            <div id="shufflephrase8" class="random8">
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+                <span class="nbr8 ltr8 sl">0</span>
+
+            </div>
+            
+            <!----------- YOUR TRUSTED CONFIDANT. ----------->
+            
+            <div id="shufflephrase9" class="random9">
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+                <span class="nbr9 ltr9 sl">0</span>
+
+            </div>
+            
+            <!----------- I AM HERE TO HELP YOU! ----------->
+            
+            <div id="shufflephrase10" class="random10">
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+                <span class="nbr10 ltr10 sl">0</span>
+
+            </div>
+
+        </div>
+        
+        <!--------------------------------- MENU ----------------------------------------->
+        
+        <div class="toggle-btn">
+
+            <span class="one"></span>
+            
+            <span class="two"></span>
+
+        </div>
+
+        <div class="menu">
+
+            <div class="data">
+
+                <ul>
+
+                    <li><a class="menulinks" onclick="askSasha();">SUBMIT TO SASHA</a></li>
+
+                    <li><a class="menulinks" href="https://www.facebook.com/sasha.white.magic">SASHA'S FACEBOOK</a></li>
+
+                    <li><a class="menulinks" href="https://www.instagram.com/iamsashawhite/">SASHA'S INSTAGRAM</a></li>
+                    
+                    <li><a class="menulinks" onclick="showReel();">SASHA'S REEL</a></li>
+                    
+                    <li><a class="menulinks" href="#contactsashadiv">CONTACT SASHA</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+        
+        <!--------------------------------- PICTURE REEL --------------------------------->
+        
+        <img id="picturereelXbutton" src="IMAGES/close.png" onclick="closeReel();">
+        
+        <div id="picturereelcontainer">
+            
+            <div id="picturediv1" class="reelpicturedivs">
+                
+                <a id="reelpiclink1" href="IMAGES/sasha1dash2.jpg" data-lightbox="picturereel"><img id="reelpic1" class="reelpictures" src="IMAGES/sasha1dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv2" class="reelpicturedivs">
+                
+                <a id="reelpiclink2" href="IMAGES/sasha2dash2.jpg" data-lightbox="picturereel"><img id="reelpic2" class="reelpictures" src="IMAGES/sasha2dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv3" class="reelpicturedivs">
+                
+                <a id="reelpiclink3" href="IMAGES/sasha3dash2.jpg" data-lightbox="picturereel"><img id="reelpic3" class="reelpictures" src="IMAGES/sasha3dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv4" class="reelpicturedivs">
+                
+                <a id="reelpiclink4" href="IMAGES/sasha4dash2.jpg" data-lightbox="picturereel"><img id="reelpic4" class="reelpictures" src="IMAGES/sasha4dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv5" class="reelpicturedivs">
+                
+                <a id="reelpiclink5" href="IMAGES/sasha5dash2.jpg" data-lightbox="picturereel"><img id="reelpic5" class="reelpictures" src="IMAGES/sasha5dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv6" class="reelpicturedivs">
+                
+                <a id="reelpiclink6" href="IMAGES/sasha6dash2.jpg" data-lightbox="picturereel"><img id="reelpic6" class="reelpictures" src="IMAGES/sasha6dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv7" class="reelpicturedivs">
+                
+                <a id="reelpiclink7" href="IMAGES/sasha7dash2.jpg" data-lightbox="picturereel"><img id="reelpic7" class="reelpictures" src="IMAGES/sasha7dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv8" class="reelpicturedivs">
+                
+                <a id="reelpiclink8" href="IMAGES/sasha8dash2.jpg" data-lightbox="picturereel"><img id="reelpic8" class="reelpictures" src="IMAGES/sasha8dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv9" class="reelpicturedivs">
+                
+                <a id="reelpiclink9" href="IMAGES/sasha9dash2.jpg" data-lightbox="picturereel"><img id="reelpic9" class="reelpictures" src="IMAGES/sasha9dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv10" class="reelpicturedivs">
+                
+                <a id="reelpiclink10" href="IMAGES/sasha10dash2.jpg" data-lightbox="picturereel"><img id="reelpic10" class="reelpictures" src="IMAGES/sasha10dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv11" class="reelpicturedivs">
+                
+                <a id="reelpiclink11" href="IMAGES/sasha11dash2.jpg" data-lightbox="picturereel"><img id="reelpic11" class="reelpictures" src="IMAGES/sasha11dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv12" class="reelpicturedivs">
+                
+                <a id="reelpiclink12" href="IMAGES/sasha12dash2.jpg" data-lightbox="picturereel"><img id="reelpic12" class="reelpictures" src="IMAGES/sasha12dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv13" class="reelpicturedivs">
+                
+                <a id="reelpiclink13" href="IMAGES/sasha13dash2.jpg" data-lightbox="picturereel"><img id="reelpic13" class="reelpictures" src="IMAGES/sasha13dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv14" class="reelpicturedivs">
+                
+                <a id="reelpiclink14" href="IMAGES/sasha14dash2.jpg" data-lightbox="picturereel"><img id="reelpic14" class="reelpictures" src="IMAGES/sasha14dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv15" class="reelpicturedivs">
+                
+                <a id="reelpiclink15" href="IMAGES/sasha15dash2.jpg" data-lightbox="picturereel"><img id="reelpic15" class="reelpictures" src="IMAGES/sasha15dash1.jpg"></a>
+                
+            </div>
+            
+            <div id="picturediv16" class="reelpicturedivs">
+                
+                <a id="reelpiclink16" href="IMAGES/sasha16dash2.jpg" data-lightbox="picturereel"><img id="reelpic16" class="reelpictures" src="IMAGES/sasha16dash1.jpg"></a>
+                
+            </div>
+            
+        </div>
+        
+        <div id="picturereelcontainershadowdiv"></div>
+    
+        <!--------------------------------- COLLAGE --------------------------------->
+    
+        <div id="collagecontainer">
+    
+            <div id="colT1" class="collagetriangles">
+            
+                <img id="colImage1" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT2" class="collagetriangles">
+            
+                <img id="colImage2" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT3" class="collagetriangles">
+            
+                <img id="colImage3" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT4" class="collagetriangles">
+            
+                <img id="colImage4" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT5" class="collagetriangles">
+            
+                <img id="colImage5" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT6" class="collagetriangles">
+            
+                <img id="colImage6" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT7" class="collagetriangles">
+            
+                <img id="colImage7" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT8" class="collagetriangles">
+            
+                <img id="colImage8" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT9" class="collagetriangles">
+            
+                <img id="colImage9" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT10" class="collagetriangles">
+            
+                <img id="colImage10" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT11" class="collagetriangles">
+            
+                <img id="colImage11" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+            
+            <div id="colT12" class="collagetriangles">
+            
+                <img id="colImage12" class="collageimage" src="IMAGES/SASHA.jpg">
+            
+            </div>
+    
+        </div>
+    
+        <!---------------------------- TRANSITIONAL DIVS ---------------------------->
+    
+        <div id="transitionaldiv1"></div>
+        
+        <div id="transitionaldiv2"></div>
+        
+        <div id="transitionaldiv3-1"></div>
+        
+        <div id="transitionaldiv3-2"></div>
+        
+        <div id="transitionaldiv4"></div>
+        
+        <div id="transitionaldiv5"></div>
+        
+        <div id="transitionaldiv6"></div>
+        
+        <div id="transitionaldiv7"></div>
+        
+        <div id="transitionaldiv8"></div>
+        
+        <div id="transitionaldiv9" class="starfieldaccents"></div>
+        
+        <div id="transitionaldiv10" class="starfieldaccents"></div>
+        
+        <div id="transitionaldiv11" class="starfieldaccents"></div>
+        
+        <div id="transitionaldiv12" class="starfieldaccents"></div>
+        
+        <div id="transitionaldiv13"></div>
+        
+        <div id="transitionaldiv14"></div>
+        
+        <div id="transitionaldiv15"></div>
+        
+        <div id="transitionaldiv16"></div>
+        
+        <div id="transitionaldiv17"></div>
+        
+        <div id="transitionaldiv18"></div>
+        
+        <div id="transitionaldiv19"></div>
+        
+        <div id="transitionaldiv20"></div>
+        
+        <!----------------------------- ABOUT SASHA DIV 1 ---------------------------->
+        
+        <div id="aboutsashadiv1">
+            
+            <canvas id="myCanvas"></canvas>
+        
+            <h1 id="aboutsashaphrases1"></h1>
+        
+        </div>
+        
+        <button id="booksashabutton1"><a id="booksashalink1" href="#contactsashadiv" title="BOOK A SESSION">GET IN TOUCH</a></button>
+        
+        <!---------------------------- DESERT PICTURE DIV ---------------------------->
+        
+        <div id="desertpicturediv"></div>
+        
+        <h1 id="desertheader1" class="desertheaders">LOVE.</h1>
+            
+        <h1 id="desertheader2" class="desertheaders">PEACE.</h1>
+            
+        <h1 id="desertheader3" class="desertheaders">HAPPINESS.</h1>
+            
+        <h1 id="desertheader4" class="desertheaders">SUCCESS.</h1>
+            
+        <h1 id="desertheader5" class="desertheaders">=&nbsp; YOU</h1>
+            
+        <div id="desertphrasesbackground"></div>
+        
+        <button id="resultsbutton"><a id="resultslink" href="#contactsashadiv" title="BOOK SASHA NOW">GET IN TOUCH</a></button>
+        
+        <!------------------------ ABOUT SASHA DIV 2 (REVIEWS) ----------------------->
+        
+        <div id="aboutsashadiv2">
+            
+            <img id="sasharandomimageleft" src="IMAGES/sasharandom1.jpg">
+            
+            <img id="sasharandomimageright" src="IMAGES/sasharandom2.jpg">
+            
+            <img id="sasharandomimagebottom" src="IMAGES/sashaDESERT.jpg">
+            
+            <button id="buttonleft" class="reviewbuttons" onclick="leftClick();"></button>
+                
+            <button id="buttonright" class="reviewbuttons" onclick="rightClick();"></button>
+            
+            <!------------------------ THE WORD ON THE STREET ----------------------->
+            
+            <h1 id="reviewsheading">THE WORD ON THE STREET</h1>
+        
+            <div id="reviewsdiv" class="reviewscontainer">
+                
+                <div id="reviewaccent1" class="reviewaccents"></div>
+                
+                <div id="reviewaccent2" class="reviewaccents"></div>
+                
+                <div id="reviewaccent3" class="reviewaccents"></div>
+                
+                <!------------------------ REVIEW 1 ----------------------->
+            
+                <div id="review1" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton1" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop1" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv1" class="closed1">
+                    
+                        <img id="pic1" src="IMAGES/reviewer1.jpg">
+                        
+                    </div>
+                    
+                <h1 id="reviewheading1-1" class="reviewheaders1"><a href="https://www.facebook.com/olga.onp">Olya Pa</a></h1>
+                        
+                    <h1 id="reviewheading1-2" class="reviewheaders2">"Businesswoman"</h1>
+
+                    <div id="reviewpardiv1" class="reviewpardivs">
+
+                        <p id="reviewpar1" class="reviewpars">I strongly recommend Sasha to anyone as a person who will help you better understand yourself and the people around you. She will help you find your inner gift and talents, help you understand how to make better decisions in life, help you find out the personality of your children and how to leverage that to their benefit and advantage and how to find your perfect better half in life. My spouse and I are already expecting a child... Something we wish for everyone. Thank you, Dobriasha!</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 2 ----------------------->
+                
+                <div id="review2" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton2" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop2" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv2" class="closed2">
+                    
+                        <img id="pic2" src="IMAGES/reviewer2.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading2-1" class="reviewheaders1"><a href="https://www.instagram.com/iamatikin/">Atikin</a></h1>
+                        
+                    <h1 id="reviewheading2-2" class="reviewheaders2">"Singer"</h1>
+
+                    <div id="reviewpardiv2" class="reviewpardivs">
+
+                        <p id="reviewpar2" class="reviewpars">Sasha gave me a wonderful reading. I found out a lot of new things about my personality that I did not know and how I can apply this new information to make my life far better and enjoyable. It was all very accurate and valuable information. Thank you!</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 3 ----------------------->
+                
+                <div id="review3" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton3" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop3" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv3" class="closed3">
+                    
+                        <img id="pic3" src="IMAGES/reviewer3.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading3-1" class="reviewheaders1"><a href="https://www.facebook.com/MaratFay">Marat Fayzullin</a></h1>
+                        
+                    <h1 id="reviewheading3-2" class="reviewheaders2">"Bussinesman"</h1>
+
+                    <div id="reviewpardiv3" class="reviewpardivs">
+
+                        <p id="reviewpar3" class="reviewpars">I have honestly never seen anyone who can brake down personality strengths and weaknesses in such a short time (and I'm talking a matter of minutes) and be so accurate at the same time. Sasha's incredible knowledge and natural feel for people left me absolutely speechless. I would definitely recomend anyone to work with her if you need help understanding your own potential, abilities and strengths. She will really show you a simple way out of your issues and you won't even believe how close the answer and the remedy to your worries are.</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 4 ----------------------->
+                
+                <div id="review4" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton4" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop4" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv4" class="closed4">
+                    
+                        <img id="pic4" src="IMAGES/reviewer4.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading4-1" class="reviewheaders1"><a href="https://www.instagram.com/merikatheone/">Merika Palmiste</a></h1>
+                        
+                    <h1 id="reviewheading4-2" class="reviewheaders2">"Model &amp; <br> Owner Of Mixolocat"</h1>
+
+                    <div id="reviewpardiv4" class="reviewpardivs">
+
+                        <p id="reviewpar4" class="reviewpars">There are times in your life when you don't believe in yourself and you want to give up on everything and just make everything stop. At this point in your life it's hard to find support and it's a huge obstacle even just to start fighting again for your goals, to put a system of success in place and to get your priorities straight. I needed guidance in my life and Sasha, being a good friend of mine, became a wonderful mentor for me in a time of need who gave me guidance and a new perspective on life. I was able to open up my own business and have the life style that I always wanted and I couldn't do it without the help and support that Sasha gave me in that moment, always pushing me and giving me the strength to keep going. I truly love you Sasha. You are an amazing human being. Your energy and knowledge can change the world into a better place. And I believe that it will!</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 5 ----------------------->
+                
+                <div id="review5" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton5" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop5" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv5" class="closed5">
+                    
+                        <img id="pic5" src="IMAGES/reviewer5.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading5-1" class="reviewheaders1"><a href="https://www.instagram.com/lana_khachiyan/">Lana Khachiyan</a></h1>
+                        
+                    <h1 id="reviewheading5-2" class="reviewheaders2">"PR Agent"</h1>
+
+                    <div id="reviewpardiv5" class="reviewpardivs">
+
+                        <p id="reviewpar5" class="reviewpars">I have always been interested in the knowldege of "self introspection" going back as far as my childhood. But Sasha has revealed a totally new and profound concept of "me" to myself. She compartmentalized all of my skills, hidden talents and dissolved a ton of hidden fears. I have always though that I needed to make a hard career choice between being a producer or a screen writer just to be successful with one. But she has helped me to understand that the two can co-exist in my life with ease and that I have the gift for it on a genetic level. How can one continue to be an unbeliever and vascillate between the choices with such strong support? She also helped me understand why I make certain decisions in regards to emotions, relationships and even diet. And it has been mindblowing... And something I am recommending to all my friends now. If you are ready to open the book called "Self - A Manual For Life" than Sasha welcomes you!</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 6 ----------------------->
+                
+                <div id="review6" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton6" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop6" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv6" class="closed6">
+                    
+                        <img id="pic6" src="IMAGES/reviewer6.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading6-1" class="reviewheaders1"><a href="https://www.instagram.com/drangaofficial/">Peter Dranga</a></h1>
+                        
+                    <h1 id="reviewheading6-2" class="reviewheaders2">"Singer, <br> Songwriter"</h1>
+
+                    <div id="reviewpardiv6" class="reviewpardivs">
+
+                        <p id="reviewpar6" class="reviewpars">Sasha is a person who immensely values a positive outlook on life. She IS the positive outlook on life, herself. For as long as I have known her as a friend I have always enjoyed observing her ability and desire to spiritually uphold the people around her. She is also a talented poetess and lovely human being!</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 7 ----------------------->
+                
+                <div id="review7" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton7" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop7" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv7" class="closed7">
+                    
+                        <img id="pic7" src="IMAGES/reviewer7.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading7-1" class="reviewheaders1"><a href="https://www.instagram.com/igor__malakhov/">Igor Malachov</a></h1>
+                        
+                    <h1 id="reviewheading7-2" class="reviewheaders2">"Photographer"</h1>
+
+                    <div id="reviewpardiv7" class="reviewpardivs">
+
+                        <p id="reviewpar7" class="reviewpars">It just so happened about three years ago that I was traveling around the United States and met Sasha in Los Angeles and our meeting lasted for four to five hours. Sasha loaded me with a ton of positive energy and love for this city and helped me to fall in love with it from the getgo. After that I lived for a while with the thought and desire that I want to move here at some point. And two and a half years later I bought a one-way ticket to LA. Sasha is a strongly energetic person and people are drawn to her. She has strong motivational abilities and has the knowledge to help one understand themselves better. If you are at crossroads and need a good kick in the ass, Dobriasha is your girl!</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 8 ----------------------->
+                
+                <div id="review8" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton8" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop8" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv8" class="closed8">
+                    
+                        <img id="pic8" src="IMAGES/reviewer8.png">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading8-1" class="reviewheaders1"><a href="https://www.instagram.com/supernova_spacey/">Supernova Spacey</a></h1>
+                        
+                    <h1 id="reviewheading8-2" class="reviewheaders2">"Photographer"</h1>
+
+                    <div id="reviewpardiv8" class="reviewpardivs">
+
+                        <p id="reviewpar8" class="reviewpars">I've known Sasha for about seven years now and I'm very glad that I got to meet her. She completely changed my life and my outlook on it. I hightly recommend Sasha as a life and career coach. She has helped me reach new heights and to finally succeed in my long-standing personal goals. She is an excellent listener, completely down to earth, is very personal (unlike a therapist) and makes you feel like you are talking to a wise but funny friend. She will forever be a huge part of my life!</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 9 ----------------------->
+                
+                <div id="review9" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton9" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop9" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv9" class="closed9">
+                    
+                        <img id="pic9" src="IMAGES/reviewer9.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading9-1" class="reviewheaders1"><a href="https://www.facebook.com/jannet.kaweesa">Jannet Kaweesa</a></h1>
+                        
+                    <h1 id="reviewheading9-2" class="reviewheaders2">"Singer"</h1>
+
+                    <div id="reviewpardiv9" class="reviewpardivs">
+
+                        <p id="reviewpar9" class="reviewpars">When Sasha gave me a break down of my personality type I was blown away by what my genetic make-up had in store for me. I heard all about it prior to meeting with her but never really found the time to get into it. When I met with her we did a complete break down of my whole family with my husband and two daughters it was mind blowing. I really want my children to be successful in applying their gifts and talents in life. The break down Sasha gave me helped me not to only understand how I operate but how my family operates as well. It has helped me to minimize bad decision making in the upbringing and educational process of my children. The way Sasha broke down the information about ourselves and our loved ones was truly magical. I am immensely grateful to her for that!</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 10 ----------------------->
+                
+                <div id="review10" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton10" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop10" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv10" class="closed10">
+                    
+                        <img id="pic10" src="IMAGES/reviewer10.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading10-1" class="reviewheaders1"><a href="https://www.facebook.com/RobertRyda">Robert Ryda</a></h1>
+                        
+                    <h1 id="reviewheading10-2" class="reviewheaders2">"Producer/Artist"</h1>
+
+                    <div id="reviewpardiv10" class="reviewpardivs">
+
+                        <p id="reviewpar10" class="reviewpars">I have lived on this planet for 30 years now. And some things I just couldn't understand. It appeared to me that I just wasn't designed for some things and HUMAN DESIGN allowed me get a grasp on what the things that I am designed for are and where I need to shift my focus! Thank you Sasha Dobriasha for helping me  to understand.</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 11 ----------------------->
+                
+                <div id="review11" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton11" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop11" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv11" class="closed11">
+                    
+                        <img id="pic11" src="IMAGES/reviewer11.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading11-1" class="reviewheaders1"><a href="https://www.facebook.com/shapran">Vadym Shapran</a></h1>
+                        
+                    <h1 id="reviewheading11-2" class="reviewheaders2">"Director/Editor"</h1>
+
+                    <div id="reviewpardiv11" class="reviewpardivs">
+
+                        <p id="reviewpar11" class="reviewpars">Human design shows us how we are hardwired. It shows us how we process energy. When you understand that, it helps you see what you are here to do and how you can best leverage that energy so that you can work without burning out and in a way that allows you to make effective decisions in life. I highly recommend getting in contact with Sasha so that you can receive this valuable information.</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 12 ----------------------->
+                
+                <div id="review12" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton12" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop12" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv12" class="closed12">
+                    
+                        <img id="pic12" src="IMAGES/reviewer12.png">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading12-1" class="reviewheaders1"><a href="http://artistsona.com/">Sons Beglaryan</a></h1>
+                        
+                    <h1 id="reviewheading12-2" class="reviewheaders2">"Barber/Artist"</h1>
+
+                    <div id="reviewpardiv12" class="reviewpardivs">
+
+                        <p id="reviewpar12" class="reviewpars">There was a season in my life when I was kind of lost and confused. But literally at the first meeting with Sasha, talking to her changed my vision on life. I've known Sasha for more than 5 years now and every time I see her and talk to her she motivates me to a better and brighter life. Her constant motivation completely changed my view on life. All the things she talked about opened up my eyes and my mindset. She helped me to understand that “The world is full of negativity and that we don’t have to be negative to ourselves. Our mindset and attitude can be controlled by us. We should think positive and be greatful to everyone and everything. We should choose actions that are in our best interests”. Sasha you are the best motivational coach ever!</p>
+
+                    </div>
+                
+                </div>
+                
+                <!------------------------ REVIEW 13 ----------------------->
+                
+                <div id="review13" class="reviewsbox position1">
+                  
+                    <input id="reviewbutton13" class="reviewopenclosebuttons" type="button">
+                    
+                    <div id="backdrop13" class="reviewparbackdrops"></div>
+                
+                    <div id="picdiv13" class="closed13">
+                    
+                        <img id="pic13" src="IMAGES/reviewer13.jpg">
+                    
+                    </div>
+                    
+                        <h1 id="reviewheading13-1" class="reviewheaders1"><a href="https://www.instagram.com/max_cherkasskikh/">Max Cherkasskikh</a></h1>
+                        
+                    <h1 id="reviewheading13-2" class="reviewheaders2">"Web Developer"</h1>
+
+                    <div id="reviewpardiv13" class="reviewpardivs">
+
+                        <p id="reviewpar13" class="reviewpars">Fate brought me and Sasha together more than a year ago at a random event. We exchanged social media profiles and called it at that for a while, until a fateful instagram post brought us together for this web site project. Introducing me to Human Design, Sasha instilled in me a seed of confidence that is now paying huge dividents in every sphere of my life. Seeing my true design nature has helped mitigate a ton of underlying insecurities I have unwillingly held on to for a long time. I am moving forward in life with nothing but confidence and the belief that amazing things are ahead of me. It's been a huge privilege to work with Sasha on this website. Everything you see here is due to her inspiration and work in my life!</p>
+
+                    </div>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+        
+        <!----------------------------- ABOUT SASHA DIV 3 (QUOTES) ----------------------------->
+        
+        <div id="aboutsashadiv3"></div>
+        
+        <div id="quoteboxdiv" class="quotebox">
+                
+            <i class="fa fa-quote-left fa2" aria-hidden="true"></i>
+
+            <div class="quotetext">
+
+                <i class="fa fa-quote-right fa1" aria-hidden="true"></i>
+
+                <div>
+
+                    <h1 id="quoteheading">MY WISDOM</h1>
+
+                    <p id="quotepar"></p>
+
+                    <p id="authorname">- Sasha White</p>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <!--------------------------------- CONTACT SASHA DIV --------------------------------->
+        
+        <div id="contactsashadiv">
+            
+            <div id="transitionaldiv21"></div>
+        
+            <div id="contactdiv">
+                
+                <img id="sashalastimage" src="IMAGES/sashalast.jpg">
+                
+                <form class="contact-form" action="contacthandler.php" method="post">
+            
+                    <p id="contactpar">For session inquiries and information enter your info.</p>
+
+                    <input id="contactnamebox" name="name" placeholder="Your Name">
+
+                    <input id="contactemailbox" name="email" placeholder="Your Email">
+                    
+                    <input id="contactsubjectbox" name="subject" placeholder="Your Subject">
+
+                    <textarea id="contactmessagebox" name="message" placeholder="Your Message"></textarea>
+
+                    <button type="submit" name="submit">
+
+                        <a id="contactsubmitbutton" title="SUBMIT">SUBMIT</a>
+
+                    </button>
+                    
+                </form>
+            
+            </div>
+            
+            <p id="maxscontactpar">Website Create And Mainted By</p>
+            
+            <form id="maxslink" action="http://maxcherkasskikh.space/">
+    
+                <input id="maxsinput" type="submit" value="Max Cherkasskikh" />
+
+            </form>
+            
+            <div id="mapdiv">
+            
+                <img id="mapimage" src="IMAGES/map.png">
+            
+            </div>
+        
+        </div>
+        
+        <!------------------------------ SCRIPT REFS ------------------------------>
+        
+        <script type="text/javascript" src="script.js"></script>
+
+        <script type="text/javascript" src="parallax.min.js"></script>
+        
+        <script type="text/javascript" src="particles.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        
+        <script type="text/javascript" src="app.js"></script>
+        
+        <!---------------------------- OTHER SCRIPT TAGS --------------------------->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    
+    </body>
+
+</html>
