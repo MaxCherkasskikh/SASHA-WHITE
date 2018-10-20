@@ -407,15 +407,6 @@ ul {
     transition: 0.5s;
 }
 
-/* --- PARTICLES --- */
-
-#particles-js {
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    z-index: 5;
-}
-
 /* --- SIGNATURE --- */
 
 .focus {
@@ -667,7 +658,7 @@ ul {
     position: absolute;
     height: 20vh;
     width: 30vw;
-    margin-top: 42vh;
+    margin-top: 41.2vh;
     margin-left: 5vw;
     border: 1px solid white;
     color: white;
@@ -1188,6 +1179,7 @@ li:not(:first-child) {
     position: absolute;
     margin-top: 1vh;
     margin-left: 17vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic1 {
@@ -1203,14 +1195,13 @@ li:not(:first-child) {
             position: absolute;
             height: 120%;
             width: 100%;
-            margin-top: ;
-            margin-left: ;
         }
 
 #picturediv2 {
     position: absolute;
     margin-top: 11.7vh;
     margin-left: 11.5vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic2 {
@@ -1226,7 +1217,6 @@ li:not(:first-child) {
             position: absolute;
             height: 100%;
             width: 130%;
-            margin-top: ;
             margin-left: -3vw;
         }
 
@@ -1234,6 +1224,7 @@ li:not(:first-child) {
     position: absolute;
     margin-top: 11.7vh;
     margin-left: 22.5vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic3 {
@@ -1249,14 +1240,13 @@ li:not(:first-child) {
             position: absolute;
             height: 100%;
             width: 140%;
-            margin-top: ;
-            margin-left: ;
         }
 
 #picturediv4 {
     position: absolute;
     margin-top: 22.5vh;
     margin-left: 6vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic4 {
@@ -1280,6 +1270,7 @@ li:not(:first-child) {
     position: absolute;
     margin-top: 22.5vh;
     margin-left: 17vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic5 {
@@ -1295,7 +1286,6 @@ li:not(:first-child) {
             position: absolute;
             height: 100%;
             width: 130%;
-            margin-top: ;
             margin-left: -2vw;
         }
 
@@ -1303,6 +1293,7 @@ li:not(:first-child) {
     position: absolute;
     margin-top: 22.5vh;
     margin-left: 28vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic6 {
@@ -1319,13 +1310,13 @@ li:not(:first-child) {
             height: 150%;
             width: 100%;
             margin-top: -4vh;
-            margin-left: ;
         }
 
 #picturediv7 {
     position: absolute;
     margin-top: 33.3vh;
     margin-left: .5vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic7 {
@@ -1341,7 +1332,6 @@ li:not(:first-child) {
             position: absolute;
             height: 100%;
             width: 150%;
-            margin-top: ;
             margin-left: -4vw;
         }
 
@@ -1349,6 +1339,7 @@ li:not(:first-child) {
     position: absolute;
     margin-top: 33.3vh;
     margin-left: 11.5vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic8 {
@@ -1372,6 +1363,7 @@ li:not(:first-child) {
     position: absolute;
     margin-top: 33.3vh;
     margin-left: 22.5vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic9 {
@@ -1387,14 +1379,13 @@ li:not(:first-child) {
             position: absolute;
             height: 130%;
             width: 100%;
-            margin-top: ;
-            margin-left: ;
         }
 
 #picturediv10 {
     position: absolute;
     margin-top: 33.3vh;
     margin-left: 33.5vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic10 {
@@ -1411,13 +1402,13 @@ li:not(:first-child) {
             height: 150%;
             width: 100%;
             margin-top: -4vh;
-            margin-left: ;
         }
 
 #picturediv11 {
     position: absolute;
     margin-top: 44.2vh;
     margin-left: 6vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic11 {
@@ -1434,13 +1425,13 @@ li:not(:first-child) {
             height: 150%;
             width: 100%;
             margin-top: -1vh;
-            margin-left: ;
         }
 
 #picturediv12 {
     position: absolute;
     margin-top: 44.2vh;
     margin-left: 17vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic12 {
@@ -1456,14 +1447,13 @@ li:not(:first-child) {
             position: absolute;
             height: 150%;
             width: 100%;
-            margin-top: ;
-            margin-left: ;
         }
 
 #picturediv13 {
     position: absolute;
     margin-top: 44.2vh;
     margin-left: 28vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic13 {
@@ -1479,7 +1469,6 @@ li:not(:first-child) {
             position: absolute;
             height: 100%;
             width: 140%;
-            margin-top: ;
             margin-left: -1.2vw;
         }
 
@@ -1487,6 +1476,7 @@ li:not(:first-child) {
     position: absolute;
     margin-top: 55vh;
     margin-left: 11.5vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic14 {
@@ -1503,13 +1493,13 @@ li:not(:first-child) {
             height: 120%;
             width: 100%;
             margin-top: -2vh;
-            margin-left: ;
         }
 
 #picturediv15 {
     position: absolute;
     margin-top: 55vh;
     margin-left: 22.5vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic15 {
@@ -1525,14 +1515,13 @@ li:not(:first-child) {
             position: absolute;
             height: 160%;
             width: 110%;
-            margin-top: ;
-            margin-left: ;
         }
 
 #picturediv16 {
     position: absolute;
     margin-top: 65.8vh;
     margin-left: 17vw;
+    transform: rotateX(90deg);
 }
 
     #reelpic16 {
@@ -1549,7 +1538,6 @@ li:not(:first-child) {
             height: 160%;
             width: 100%;
             margin-top: -2vh;
-            margin-left: ;
         }
 
 .hoveritem:hover {
@@ -1844,7 +1832,7 @@ li:not(:first-child) {
     position: absolute;
     height: 1vh;
     width: 16.27vw;
-    margin-top: 432.38vh;
+    margin-top: 429.9vh;
     margin-left: 0vw;
     -webkit-clip-path: polygon(100% 0, 98.2% 50%, 100% 100%, 0 100%, 0 0);
     clip-path: polygon(100% 0, 98.2% 50%, 100% 100%, 0 100%, 0 0);
@@ -1857,7 +1845,7 @@ li:not(:first-child) {
     position: absolute;
     height: 1vh;
     width: 16.30vw;
-    margin-top: 432.37vh;
+    margin-top: 429.9vh;
     margin-left: 83.69vw;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 1.5% 50%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 1.5% 50%);
@@ -2046,7 +2034,7 @@ li:not(:first-child) {
 
 #desertheader1 {
     position: absolute;
-    margin-top: 360.4vh;
+    margin-top: 360.7vh;
     margin-left: 7vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2054,7 +2042,7 @@ li:not(:first-child) {
 
 #desertheader2 {
     position: absolute;
-    margin-top: 180.5vh;
+    margin-top: 180.3vh;
     margin-left: 22.3vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2062,7 +2050,7 @@ li:not(:first-child) {
 
 #desertheader3 {
     position: absolute;
-    margin-top: 360.4vh;
+    margin-top: 360.7vh;
     margin-left: 38.7vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2070,7 +2058,7 @@ li:not(:first-child) {
 
 #desertheader4 {
     position: absolute;
-    margin-top: 180.5vh;
+    margin-top: 180.3vh;
     margin-left: 64.2vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2078,7 +2066,7 @@ li:not(:first-child) {
 
 #desertheader5 {
     position: absolute;
-    margin-top: 360.4vh;
+    margin-top: 360.7vh;
     margin-left: 83vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2472,8 +2460,8 @@ li:not(:first-child) {
     position: absolute;
     height: 300px;
     width: 300px;
-    margin-top: -20vh;
-    margin-left: 7.31vw;
+    margin-top: -19.6vh;
+    margin-left: 7.29vw;
     background: rgba(0, 0, 0, 0.7);
     -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 51%, 54% 97%, 51% 99.7%, 50% 100%, 49% 99.7%, 46% 97%, 0 51%);
     clip-path: polygon(0 50%, 100% 50%, 100% 51%, 54% 97%, 51% 99.7%, 50% 100%, 49% 99.7%, 46% 97%, 0 51%);
@@ -2487,8 +2475,6 @@ li:not(:first-child) {
     position: absolute;
     height: 580px;
     width: 580px;
-    margin-top: ;
-    margin-left: ;
     -webkit-clip-path: polygon(50% 0, 51.5% 0.5%, 99.5% 48.5%, 100% 50%, 99.5% 51.5%, 51.5% 99.5%, 50% 100%, 48.5% 99.5%, 0.5% 51.5%, 0 50%, 0.5% 48.5%, 48.5% 0.5%);
     clip-path: polygon(50% 0, 51.5% 0.5%, 99.5% 48.5%, 100% 50%, 99.5% 51.5%, 51.5% 99.5%, 50% 100%, 48.5% 99.5%, 0.5% 51.5%, 0 50%, 0.5% 48.5%, 48.5% 0.5%);
     animation: backgroundgradient 40s infinite;
@@ -2551,13 +2537,11 @@ li:not(:first-child) {
 }
 
 #review1 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv1 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic1 {
@@ -2588,13 +2572,11 @@ li:not(:first-child) {
                 }
 
 #review2 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv2 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic2 {
@@ -2625,13 +2607,11 @@ li:not(:first-child) {
                 }
 
 #review3 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv3 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic3 {
@@ -2657,19 +2637,15 @@ li:not(:first-child) {
                 }
 
                 #reviewpar3 {
-                    margin-top: ;
-                    margin-left: ;
                     overflow-y: auto;
                 }
 
 #review4 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv4 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic4 {
@@ -2698,20 +2674,16 @@ li:not(:first-child) {
                 }
 
                 #reviewpar4 {
-                    margin-top: ;
-                    margin-left: ;
                     font-size: 13px!important;
                     overflow-y: auto;
                 }
 
 #review5 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv5 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic5 {
@@ -2733,25 +2705,21 @@ li:not(:first-child) {
                     height: 320px!important;
                     width: 330px!important;
                     margin-top: 60vh;
-                    margin-left: 7vw;
+                    margin-left: 6.5vw;
                     overflow: auto;
                 }
 
                 #reviewpar5 {
-                    margin-top: ;
-                    margin-left: ;
-                    font-size: 12px!important;
+                    font-size: 13px!important;
                     overflow-y: auto;
                 }
 
 #review6 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv6 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic6 {
@@ -2783,13 +2751,11 @@ li:not(:first-child) {
                 }
 
 #review7 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv7 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic7 {
@@ -2816,20 +2782,16 @@ li:not(:first-child) {
                 }
 
                 #reviewpar7 {
-                    margin-top: ;
-                    margin-left: ;
                     font-size: 14px!important;
                     overflow-y: auto;
                 }
 
 #review8 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv8 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic8 {
@@ -2855,19 +2817,15 @@ li:not(:first-child) {
                 }
 
                 #reviewpar8 {
-                    margin-top: ;
-                    margin-left: ;
                     overflow-y: auto;
                 }
 
 #review9 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv9 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic9 {
@@ -2895,20 +2853,16 @@ li:not(:first-child) {
                 }
 
                 #reviewpar9 {
-                    margin-top: ;
-                    margin-left: ;
                     font-size: 13px!important;
                     overflow-y: auto;
                 }
 
 #review10 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv10 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic10 {
@@ -2936,20 +2890,16 @@ li:not(:first-child) {
                 }
 
                 #reviewpar10 {
-                    margin-top: ;
-                    margin-left: ;
                     font-size: 13px!important;
                     overflow-y: auto;
                 }
 
 #review11 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv11 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic11 {
@@ -2977,20 +2927,16 @@ li:not(:first-child) {
                 }
 
                 #reviewpar11 {
-                    margin-top: ;
-                    margin-left: ;
                     font-size: 13px!important;
                     overflow-y: auto;
                 }
 
 #review12 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv12 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic12 {
@@ -3018,20 +2964,16 @@ li:not(:first-child) {
                 }
 
                 #reviewpar12 {
-                    margin-top: ;
-                    margin-left: ;
                     font-size: 13px!important;
                     overflow-y: auto;
                 }
 
 #review13 {
-    margin-top: ;
-    margin-left: ;
+    
 }
 
     #picdiv13 {
-        margin-top: ;
-        margin-left: ;
+        
     }
 
         #pic13 {
@@ -3059,8 +3001,6 @@ li:not(:first-child) {
                 }
 
                 #reviewpar13 {
-                    margin-top: ;
-                    margin-left: ;
                     font-size: 13px!important;
                     overflow-y: auto;
                 }
@@ -4118,7 +4058,7 @@ li:not(:first-child) {
 }
 
 #reviewpardiv4.open4 {
-    margin-top: 17.5vh;
+    margin-top: 21vh;
     transition: 0.8s;
 }
 
@@ -4205,7 +4145,7 @@ li:not(:first-child) {
 }
 
 #reviewheading6-2.open6 {
-    margin-left: 12.4vw;
+    margin-left: 10.2vw;
     transition: 0.8s;
 }
 
@@ -4486,7 +4426,7 @@ li:not(:first-child) {
 }
 
 #reviewpardiv12.open12 {
-    margin-top: 17.5vh;
+    margin-top: 19vh;
     transition: 0.8s;
 }
 
@@ -4532,7 +4472,7 @@ li:not(:first-child) {
 }
 
 #reviewpardiv13.open13 {
-    margin-top: 17.5vh;
+    margin-top: 20vh;
     transition: 0.8s;
 }
 
@@ -4630,7 +4570,7 @@ li:not(:first-child) {
     left: 0;
     width: 100%;
     transform: translateY(-50%);
-    padding 40px 80px;
+    padding: 40px 80px;
     box-sizing: border-box;
     text-align: center;
     border-radius: 5px;
@@ -4694,7 +4634,7 @@ li:not(:first-child) {
     position: absolute;
     height: 80vh;
     width: 100vw;
-    margin-top: 612vh;
+    margin-top: 614.4vh;
     background: rgb(29, 29, 29);
     background: url(IMAGES/desert4.jpg);
     background-attachment: fixed;

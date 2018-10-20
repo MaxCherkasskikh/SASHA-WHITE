@@ -52,8 +52,6 @@
         
         <!--------------------------------- HEADER --------------------------------->
 
-        <div id="particles-js"></div>
-
         <div id="signaturediv" class="focus">
 
             <div class="focus-mask">
@@ -71,34 +69,42 @@
             <img id="asksashaXbutton" src="IMAGES/close.png" onclick="submitSasha();">
 
             <p id="asksashapar">To ask Sasha one question or to submit your talent resume please fill out this form and click submit. Sasha will look at the message and contact you directly for further conversation.</p>
-
-            <input id="namebox" name="rantname" placeholder="Your Name">
-
-            <input id="emailbox" name="rantemail" placeholder="Your Email">
-            
-            <input id="dateofbirthbox" name="rantdateofbirth" placeholder="Your Date Of Birth">
-            
-            <input id="placeofbirthbox" name="rantplaceofbirth" placeholder="Your Place Of Birth">
-            
-            <input id="timeofbirthbox" name="ranttimeofbirth" placeholder="Your Time Of Birth">
-            
-            <input id="phonenumberbox" name="rantphonenumber" placeholder="Your Phone Number">
-            
-            <input id="subjectbox" name="rantsubject" placeholder="Your Subject">
-            
-            <div id="uploadfilediv">
                 
-                <input id="real-file" type="file" hidden="hidden" />
-                
-                <button id="custom-button" type="button">CHOOSE A FILE</button>
-                    
-                <span id="custom-text">No file chosen, yet.</span>
-                
-            </div>
+            <form method="post" action="contacthandler.php" enctype="multipart/form-data">
 
-            <textarea id="messagebox" name="rantmessage" placeholder="Your Message"></textarea>
+                <input id="namebox" name="rantname" placeholder="Your Name">
 
-            <button><a id="submitbutton" onclick="submitSasha();">SEND</a></button>
+                <input id="emailbox" name="rantemail" placeholder="Your Email">
+
+                <input id="dateofbirthbox" name="rantdateofbirth" placeholder="Your Date Of Birth">
+
+                <input id="placeofbirthbox" name="rantplaceofbirth" placeholder="Your Place Of Birth">
+
+                <input id="timeofbirthbox" name="ranttimeofbirth" placeholder="Your Time Of Birth">
+
+                <input id="phonenumberbox" name="rantphonenumber" placeholder="Your Phone Number">
+
+                <input id="subjectbox" name="rantsubject" placeholder="Your Subject">
+
+                <div id="uploadfilediv">
+
+                   <form method="post" action="contacthandler.php" enctype="multipart/form-data">
+
+                        <input id="real-file" type="file" name="attach1" hidden="hidden" />
+
+                        <button id="custom-button" type="button">CHOOSE A FILE</button>
+
+                        <span id="custom-text">No file chosen, yet.</span>
+
+                    </form>
+
+                </div>
+
+                <textarea id="messagebox" name="rantmessage" placeholder="Your Message"></textarea>
+
+                <a id="submitbutton" onclick="submitSasha();">SEND</a>
+                
+            </form>
 
         </div>
 
@@ -106,7 +112,7 @@
 
         <div id="videodiv1">
 
-            <video src="IMAGES/vid1.mp4" onload="onLoadTimeLapse()" id="timelapsevideo1" muted preload="auto" autoplay="autoplay" loop="loop"></video>
+            <video src="IMAGES/vid1compressed.mp4" onload="onLoadTimeLapse()" id="timelapsevideo1" muted preload="auto" autoplay="autoplay" loop="loop"></video>
 
         </div>
 
@@ -874,7 +880,7 @@
         
         </div>
         
-        <button id="booksashabutton1"><a id="booksashalink1" href="#contactsashadiv" title="BOOK A SESSION">GET IN TOUCH</a></button>
+        <a id="booksashalink1" href="#contactsashadiv" title="BOOK A SESSION">GET IN TOUCH</a>
         
         <!---------------------------- DESERT PICTURE DIV ---------------------------->
         
@@ -892,7 +898,7 @@
             
         <div id="desertphrasesbackground"></div>
         
-        <button id="resultsbutton"><a id="resultslink" href="#contactsashadiv" title="BOOK SASHA NOW">GET IN TOUCH</a></button>
+        <a id="resultslink" href="#contactsashadiv" title="BOOK SASHA NOW">GET IN TOUCH</a>
         
         <!------------------------ ABOUT SASHA DIV 2 (REVIEWS) ----------------------->
         
@@ -1014,11 +1020,11 @@
                     
                         <h1 id="reviewheading4-1" class="reviewheaders1"><a href="https://www.instagram.com/merikatheone/">Merika Palmiste</a></h1>
                         
-                    <h1 id="reviewheading4-2" class="reviewheaders2">"Model &amp; <br> Owner Of Mixolocat"</h1>
+                    <h1 id="reviewheading4-2" class="reviewheaders2">"Model &amp; Owner Of Mixolocat"</h1>
 
                     <div id="reviewpardiv4" class="reviewpardivs">
 
-                        <p id="reviewpar4" class="reviewpars">There are times in your life when you don't believe in yourself and you want to give up on everything and just make everything stop. At this point in your life it's hard to find support and it's a huge obstacle even just to start fighting again for your goals, to put a system of success in place and to get your priorities straight. I needed guidance in my life and Sasha, being a good friend of mine, became a wonderful mentor for me in a time of need who gave me guidance and a new perspective on life. I was able to open up my own business and have the life style that I always wanted and I couldn't do it without the help and support that Sasha gave me in that moment, always pushing me and giving me the strength to keep going. I truly love you Sasha. You are an amazing human being. Your energy and knowledge can change the world into a better place. And I believe that it will!</p>
+                        <p id="reviewpar4" class="reviewpars">There are times in your life when you don't believe in yourself and you want to give up. At this point in your life it's hard to find support and it's a huge obstacle just to start fighting again for your goals and priorities. I needed help in my life and Sasha, being a good friend of mine gave me guidance and a new perspective on life. I was able to open up my own business and have the life style that I always wanted and I couldn't do it without the support that Sasha gave me in that moment. I truly love you Sasha. You are an amazing human being. Your energy and knowledge can change the world into a better place. And I believe that it will!</p>
 
                     </div>
                 
@@ -1044,7 +1050,7 @@
 
                     <div id="reviewpardiv5" class="reviewpardivs">
 
-                        <p id="reviewpar5" class="reviewpars">I have always been interested in the knowldege of "self introspection" going back as far as my childhood. But Sasha has revealed a totally new and profound concept of "me" to myself. She compartmentalized all of my skills, hidden talents and dissolved a ton of hidden fears. I have always though that I needed to make a hard career choice between being a producer or a screen writer just to be successful with one. But she has helped me to understand that the two can co-exist in my life with ease and that I have the gift for it on a genetic level. How can one continue to be an unbeliever and vascillate between the choices with such strong support? She also helped me understand why I make certain decisions in regards to emotions, relationships and even diet. And it has been mindblowing... And something I am recommending to all my friends now. If you are ready to open the book called "Self - A Manual For Life" than Sasha welcomes you!</p>
+                        <p id="reviewpar5" class="reviewpars">I have always been interested in the knowldege of "self introspection". But Sasha has revealed a totally new and profound concept of "me" to myself. She compartmentalized all of my talents and dissolved a ton of hidden fears. I have always though that I needed to make a hard career choice between being a producer or a screen writer. But she has helped me to understand that the two can co-exist in my life and that I have the gift for it on a genetic level. How can one continue to be an unbeliever? She also helped me understand why I make certain decisions in regards to emotions, relationships and even diet. And it's been mindblowing and something I am recommending to everyone. If you are ready to open the book called "Self - A Manual For Life" than Sasha welcomes you!</p>
 
                     </div>
                 
@@ -1066,7 +1072,7 @@
                     
                         <h1 id="reviewheading6-1" class="reviewheaders1"><a href="https://www.instagram.com/drangaofficial/">Peter Dranga</a></h1>
                         
-                    <h1 id="reviewheading6-2" class="reviewheaders2">"Singer, <br> Songwriter"</h1>
+                    <h1 id="reviewheading6-2" class="reviewheaders2">"Singer, Songwriter"</h1>
 
                     <div id="reviewpardiv6" class="reviewpardivs">
 
@@ -1148,7 +1154,7 @@
 
                     <div id="reviewpardiv9" class="reviewpardivs">
 
-                        <p id="reviewpar9" class="reviewpars">When Sasha gave me a break down of my personality type I was blown away by what my genetic make-up had in store for me. I heard all about it prior to meeting with her but never really found the time to get into it. When I met with her we did a complete break down of my whole family with my husband and two daughters it was mind blowing. I really want my children to be successful in applying their gifts and talents in life. The break down Sasha gave me helped me not to only understand how I operate but how my family operates as well. It has helped me to minimize bad decision making in the upbringing and educational process of my children. The way Sasha broke down the information about ourselves and our loved ones was truly magical. I am immensely grateful to her for that!</p>
+                        <p id="reviewpar9" class="reviewpars">When Sasha gave me a break down of my personality type I was blown away by my genetic make-up. I heard all about it before meeting with her. But I met with her we did a complete break down of my whole family and it was mind blowing. I want my children to be successful in applying their gifts in life. The break down Sasha gave me helped me to understand how my family and I operate. It has helped me to minimize bad decision making in the upbringing and educational process of my children. The way Sasha broke down the information about ourselves and our loved ones was truly magical. I am immensely grateful to her for that!</p>
 
                     </div>
                 
@@ -1226,7 +1232,7 @@
 
                     <div id="reviewpardiv12" class="reviewpardivs">
 
-                        <p id="reviewpar12" class="reviewpars">There was a season in my life when I was kind of lost and confused. But literally at the first meeting with Sasha, talking to her changed my vision on life. I've known Sasha for more than 5 years now and every time I see her and talk to her she motivates me to a better and brighter life. Her constant motivation completely changed my view on life. All the things she talked about opened up my eyes and my mindset. She helped me to understand that “The world is full of negativity and that we don’t have to be negative to ourselves. Our mindset and attitude can be controlled by us. We should think positive and be greatful to everyone and everything. We should choose actions that are in our best interests”. Sasha you are the best motivational coach ever!</p>
+                        <p id="reviewpar12" class="reviewpars">There was a season in my life when I was lost. But literally at the first meeting Sasha changed my vision on life. I've known Sasha for more than 5 years now and every time I see her she motivates me to a better life. Her constant motivation completely changed my view on life. All the things she talked about opened up my eyes and my mindset. She helped me to understand that “The world is full of negativity and that we don’t have to be negative to ourselves. Our mindset and attitude can be controlled by us. We should think positive and be greatful to everyone and everything. We should choose actions that are in our best interests”. Sasha you are the best motivational coach ever!</p>
 
                     </div>
                 
@@ -1252,7 +1258,7 @@
 
                     <div id="reviewpardiv13" class="reviewpardivs">
 
-                        <p id="reviewpar13" class="reviewpars">Fate brought me and Sasha together more than a year ago at a random event. We exchanged social media profiles and called it at that for a while, until a fateful instagram post brought us together for this web site project. Introducing me to Human Design, Sasha instilled in me a seed of confidence that is now paying huge dividents in every sphere of my life. Seeing my true design nature has helped mitigate a ton of underlying insecurities I have unwillingly held on to for a long time. I am moving forward in life with nothing but confidence and the belief that amazing things are ahead of me. It's been a huge privilege to work with Sasha on this website. Everything you see here is due to her inspiration and work in my life!</p>
+                        <p id="reviewpar13" class="reviewpars">Fate brought me and Sasha together more than a year ago. We exchanged info and called it at that for a while, until a fateful instagram post brought us together. Introducing me to Human Design, Sasha instilled in me a seed of confidence that is now paying huge dividents in every sphere of my life. Seeing my true design nature has helped mitigate a ton of underlying insecurities. I am moving forward in life with nothing but confidence and the belief that amazing things are ahead of me. It's been a huge privilege to work with Sasha on this website. Everything you see here is due to her inspiration and work in my life!</p>
 
                     </div>
                 
@@ -1342,11 +1348,7 @@
 
         <script type="text/javascript" src="parallax.min.js"></script>
         
-        <script type="text/javascript" src="particles.js"></script>
-        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-        
-        <script type="text/javascript" src="app.js"></script>
         
         <!---------------------------- OTHER SCRIPT TAGS --------------------------->
 
