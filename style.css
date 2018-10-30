@@ -399,12 +399,32 @@ ul {
     height: 12vh;
     margin-top: 3vh;
     margin-left: 1.7vw;
+    animation: logopumping 2s infinite;
     z-index: 10;
 }
 
 #logoimage:hover {
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+@keyframes logopumping {
+    0% {
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    25% {
+        transform: scale(1);
+        transition: 0.5s;
+    }
+    50% {
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    75% {
+        transform: scale(1);
+        transition: 0.5s;
+    }
 }
 
 /* --- SIGNATURE --- */
@@ -488,7 +508,7 @@ ul {
     position: absolute;
     height: 78vh;
     width: 40vw;
-    margin-top: 17vh;
+    margin-top: 10vh;
     margin-left: 30vw;
     background: rgba(0, 0, 0, 0.7);
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -508,7 +528,7 @@ ul {
 #asksashapar {
     position: absolute;
     width: 22vw;
-    margin-top: 11vh;
+    margin-top: 14vh;
     margin-left: 9vw;
     font-family: 'Rajdhani', sans-serif;
     color: white;
@@ -520,7 +540,7 @@ ul {
     position: absolute;
     height: 3vh;
     width: 14.5vw;
-    margin-top: 21vh;
+    margin-top: 25vh;
     margin-left: 5vw;
     border: 1px solid white;
     color: white;
@@ -534,49 +554,7 @@ ul {
     position: absolute;
     height: 3vh;
     width: 14.5vw;
-    margin-top: 26vh;
-    margin-left: 5vw;
-    border: 1px solid white;
-    color: white;
-    padding-left: 10px;
-    font-family: 'Rajdhani', sans-serif;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-#dateofbirthbox {
-    position: absolute;
-    height: 3vh;
-    width: 14.5vw;
-    margin-top: 31vh;
-    margin-left: 5vw;
-    border: 1px solid white;
-    color: white;
-    padding-left: 10px;
-    font-family: 'Rajdhani', sans-serif;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-#placeofbirthbox {
-    position: absolute;
-    height: 3vh;
-    width: 14.5vw;
-    margin-top: 21vh;
-    margin-left: 20.5vw;
-    border: 1px solid white;
-    color: white;
-    padding-left: 10px;
-    font-family: 'Rajdhani', sans-serif;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-#timeofbirthbox {
-    position: absolute;
-    height: 3vh;
-    width: 14.5vw;
-    margin-top: 26vh;
+    margin-top: 25vh;
     margin-left: 20.5vw;
     border: 1px solid white;
     color: white;
@@ -591,7 +569,7 @@ ul {
     height: 3vh;
     width: 14.5vw;
     margin-top: 31vh;
-    margin-left: 20.5vw;
+    margin-left: 5vw;
     border: 1px solid white;
     color: white;
     padding-left: 10px;
@@ -604,8 +582,8 @@ ul {
     position: absolute;
     height: 3vh;
     width: 14.5vw;
-    margin-top: 36vh;
-    margin-left: 5vw;
+    margin-top: 31vh;
+    margin-left: 20.5vw;
     border: 1px solid white;
     color: white;
     padding-left: 10px;
@@ -614,51 +592,11 @@ ul {
     background: rgba(255, 255, 255, 0.2);
 }
 
-#uploadfilediv {
-    position: absolute;
-    height: 4.8vh;
-    width: 19vw;
-    margin-top: 35vh;
-    margin-left: 20vw;
-    z-index: 500;
-}
-
-#custom-button {
-    position: absolute;
-    height: 3.09vh;
-    width: 7vw;
-    margin-top: 0.9vh;
-    margin-left: 0.4vw;
-    text-align: center;
-    font-size: 18px;
-    text-shadow: 1px 1px black;
-    border-radius: 5px;
-    border: 0.5px solid white;
-    font-family: 'Rajdhani', sans-serif;
-    background: rgba(255, 255, 255, 0.2);
-    animation: bordergradient 40s infinite, fontcolorgradient 40s infinite;
-    z-index: 500;
-}
-
-#custom-button:hover {
-    background: rgba(255, 0, 0, 0.3);
-}
-
-#custom-text {
-    position: absolute;
-    width: 12vw;
-    margin-top: 1.6vh;
-    margin-left: 7.7vw;
-    color: white;
-    font-size: 12px;
-    font-family: 'Rajdhani', sans-serif;
-}
-
 #messagebox {
     position: absolute;
     height: 20vh;
     width: 30vw;
-    margin-top: 41.2vh;
+    margin-top: 38vh;
     margin-left: 5vw;
     border: 1px solid white;
     color: white;
@@ -704,7 +642,7 @@ ul {
 
 #timelapsevideo1 {
     position: fixed;
-    width: 1920px;
+    height: 132%;
     overflow: hidden;
     z-index: 0;
 }
@@ -1771,7 +1709,7 @@ li:not(:first-child) {
     height: 15vh;
     width: 50vw;
     margin-top: 140vh;
-    margin-left: 98vh;
+    margin-left: 98.2vh;
     -webkit-clip-path: polygon(0 98%, 100% 0, 100% 25%, 0 100%);
     clip-path: polygon(0 98%, 100% 0, 100% 25%, 0 100%);
     z-index: 50;
@@ -1782,7 +1720,7 @@ li:not(:first-child) {
     position: absolute;
     height: 15vh;
     width: 50vw;
-    margin-top: 189vh;
+    margin-top: 186vh;
     -webkit-clip-path: polygon(0 75%, 100% 0, 100% 2%, 0 100%);
     clip-path: polygon(0 75%, 100% 0, 100% 2%, 0 100%);
     z-index: 50;
@@ -1793,8 +1731,8 @@ li:not(:first-child) {
     position: absolute;
     height: 15vh;
     width: 50vw;
-    margin-top: 189vh;
-    margin-left: 98vh;
+    margin-top: 186vh;
+    margin-left: 98.2vh;
     -webkit-clip-path: polygon(0 0, 100% 75%, 100% 100%, 0 2%);
     clip-path: polygon(0 0, 100% 75%, 100% 100%, 0 2%);
     z-index: 50;
@@ -1926,23 +1864,31 @@ li:not(:first-child) {
     -webkit-clip-path: polygon(50% 32%, 100% 0, 100% 100%, 50% 68%, 0 100%, 0 0);
     clip-path: polygon(50% 32%, 100% 0, 100% 100%, 50% 68%, 0 100%, 0 0);
     z-index: 30;
-    perspective: 800px;
 }
 
-#myCanvas {
+#roadgifcover {
+    position: absolute;
     height: 105vh;
     width: 100vw;
     margin-top: 0vh;
-    background-color: rgb(29, 29, 29);
+    background-color: rgba(29, 29, 29, 0.9);
     -webkit-clip-path: polygon(50% 32%, 100% 0, 100% 100%, 50% 68%, 0 100%, 0 0);
     clip-path: polygon(50% 32%, 100% 0, 100% 100%, 50% 68%, 0 100%, 0 0);
+    z-index: 31;
 }
 
-#aboutsashaphrases1 {
+#roadgifimage {
     position: absolute;
+    width: 100%;
+    margin-top: -17%;
+}
+
+#aboutsashasmokephrases {
+    position: absolute;
+    height: 15vh;
     width: 80vw;
-    margin-top: -59vh;
-    margin-left: 10vw;
+    margin-top: 162vh;
+    margin-left: 50vw;
     transform: translate(-50%);
     text-align: center;
     color: rgba(255, 255, 255, 0.6);
@@ -1951,11 +1897,15 @@ li:not(:first-child) {
     font-size: 120px;
     font-weight: bolder;
     text-shadow: 2px 2px 3px white;
-    overflow: hidden;
     border: none;
     background: none;
     animation: fontcolorgradient 40s infinite, textsmoke 6.2s infinite;
+    overflow: hidden;
+    transition: 0.8s;
+    z-index: 999;
 }
+
+/* ----------------
 
 @keyframes textsmoke {
     0% {
@@ -1988,12 +1938,14 @@ li:not(:first-child) {
     }
 }
 
+------------------ */
+
 #booksashalink1 {
     position: absolute;
     height: 4vh;
     width: 10vw;
     margin-top: 181vh;
-    margin-left: 44.5vw;
+    margin-left: 45vw;
     text-align: center;
     font-size: 25px;
     text-shadow: 1px 1px black;
@@ -2034,7 +1986,7 @@ li:not(:first-child) {
 
 #desertheader1 {
     position: absolute;
-    margin-top: 360.7vh;
+    margin-top: 360.4vh;
     margin-left: 7vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2042,7 +1994,8 @@ li:not(:first-child) {
 
 #desertheader2 {
     position: absolute;
-    margin-top: 180.3vh;
+    margin-top: 180.5vh;
+    margin-top: 180.5vh;
     margin-left: 22.3vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2050,7 +2003,7 @@ li:not(:first-child) {
 
 #desertheader3 {
     position: absolute;
-    margin-top: 360.7vh;
+    margin-top: 360.4vh;
     margin-left: 38.7vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2058,7 +2011,8 @@ li:not(:first-child) {
 
 #desertheader4 {
     position: absolute;
-    margin-top: 180.3vh;
+    margin-top: 180.5vh;
+    margin-top: 180.5vh;
     margin-left: 64.2vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2066,7 +2020,7 @@ li:not(:first-child) {
 
 #desertheader5 {
     position: absolute;
-    margin-top: 360.7vh;
+    margin-top: 360.4vh;
     margin-left: 83vw;
     z-index: 25;
     animation: fontcolorgradient 40s infinite;
@@ -2498,7 +2452,7 @@ li:not(:first-child) {
     color: white;
     text-transform: uppercase;
     font-family: 'Rajdhani', sans-serif;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: 1.4px 1.4px black;
     animation: fontcolorgradient 40s infinite;
     transition: 0.8s;
     z-index: 1;
@@ -2511,7 +2465,7 @@ li:not(:first-child) {
     color: white;
     text-transform: uppercase;
     font-family: 'Rajdhani', sans-serif;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: 1.4px 1.4px black;
     animation: fontcolorgradient 40s infinite;
     transition: 0.8s;
     z-index: 1;
@@ -2545,8 +2499,9 @@ li:not(:first-child) {
     }
 
         #pic1 {
-            height: 110%;
-            width: 110%;
+            height: 150%;
+            width: 100%;
+            margin-top: -5vh;
         }
 
             #reviewheading1-1 {
@@ -2655,14 +2610,15 @@ li:not(:first-child) {
         }
 
             #reviewheading4-1 {
-                font-size: 18px;
+                font-size: 16px;
                 margin-top: 7vh;
             }
 
             #reviewheading4-2 {
                 text-align: center;
-                margin-top: 10vh;
+                margin-top: 11vh;
                 margin-left: 40vw;
+                font-size: 15px;
             }
 
                 #reviewpardiv4 {
@@ -4048,12 +4004,12 @@ li:not(:first-child) {
 }
 
 #reviewheading4-1.open4 {
-    margin-left: 11.7vw;
+    margin-left: 12vw;
     transition: 0.8s;
 }
 
 #reviewheading4-2.open4 {
-    margin-left: 10.3vw;
+    margin-left: 9.7vw;
     transition: 0.8s;
 }
 
@@ -4666,6 +4622,30 @@ li:not(:first-child) {
     margin-left: 2vw;
 }
 
+#facebookicon {
+    position: absolute;
+    height: 6vh;
+    margin-top: 34vh;
+    margin-left: 26.5vw;
+}
+
+#facebookicon:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#instagramicon {
+    position: absolute;
+    height: 6vh;
+    margin-top: 34vh;
+    margin-left: 32vw;
+}
+
+#instagramicon:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 #contactpar {
     position: absolute;
     margin-top: 24vh;
@@ -4679,7 +4659,7 @@ li:not(:first-child) {
     height: 3vh;
     width: 14vw;
     margin-top: 30vh;
-    margin-left: 32vw;
+    margin-left: 42vw;
     color: white;
     padding-left: 10px;
     background: rgba(255, 255, 255, 0.1);
@@ -4692,7 +4672,7 @@ li:not(:first-child) {
     height: 3vh;
     width: 14vw;
     margin-top: 35.4vh;
-    margin-left: 34.2vw;
+    margin-left: 45.2vw;
     color: white;
     padding-left: 10px;
     background: rgba(255, 255, 255, 0.1);
@@ -4706,7 +4686,7 @@ li:not(:first-child) {
     height: 3vh;
     width: 14vw;
     margin-top: 41vh;
-    margin-left: 36.5vw;
+    margin-left: 48.5vw;
     color: white;
     padding-left: 10px;
     background: rgba(255, 255, 255, 0.1);
@@ -4796,7 +4776,7 @@ li:not(:first-child) {
 
 #mapimage {
     position: absolute;
-    height: 64.9vh;
+    height: 68vh;
     width: 80vw;
     margin-top: 5vh;
     margin-left: -15vw;

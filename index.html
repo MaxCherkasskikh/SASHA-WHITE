@@ -10,15 +10,13 @@
 
         <meta charset="utf-8">
         
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" user-scalable="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!------------------------------- STYLE REFS ------------------------------->
         
         <link rel="stylesheet" href="style.css">
         
-        <link rel="stylesheet" href="queries.css">
-        
-        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="iPhonequeryvertical.css">
         
         <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
         
@@ -41,6 +39,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
         
         <script src="lightbox.js"></script>
+        
+        <script src="iphonequery.js"></script>
   
     </head>
     
@@ -68,7 +68,7 @@
             
             <img id="asksashaXbutton" src="IMAGES/close.png" onclick="submitSasha();">
 
-            <p id="asksashapar">To ask Sasha one question or to submit your talent resume please fill out this form and click submit. Sasha will look at the message and contact you directly for further conversation.</p>
+            <p id="asksashapar">To ask Sasha only one question please fill out this form and click submit. Sasha will look at the message and contact you directly for further conversation.</p>
                 
             <form method="post" action="contacthandler.php" enctype="multipart/form-data">
 
@@ -76,29 +76,9 @@
 
                 <input id="emailbox" name="rantemail" placeholder="Your Email">
 
-                <input id="dateofbirthbox" name="rantdateofbirth" placeholder="Your Date Of Birth">
-
-                <input id="placeofbirthbox" name="rantplaceofbirth" placeholder="Your Place Of Birth">
-
-                <input id="timeofbirthbox" name="ranttimeofbirth" placeholder="Your Time Of Birth">
-
                 <input id="phonenumberbox" name="rantphonenumber" placeholder="Your Phone Number">
 
                 <input id="subjectbox" name="rantsubject" placeholder="Your Subject">
-
-                <div id="uploadfilediv">
-
-                   <form method="post" action="contacthandler.php" enctype="multipart/form-data">
-
-                        <input id="real-file" type="file" name="attach1" hidden="hidden" />
-
-                        <button id="custom-button" type="button">CHOOSE A FILE</button>
-
-                        <span id="custom-text">No file chosen, yet.</span>
-
-                    </form>
-
-                </div>
 
                 <textarea id="messagebox" name="rantmessage" placeholder="Your Message"></textarea>
 
@@ -111,8 +91,8 @@
         <!---------------------- VIDEO ---------------------->
 
         <div id="videodiv1">
-
-            <video src="IMAGES/vid1compressed.mp4" onload="onLoadTimeLapse()" id="timelapsevideo1" muted preload="auto" autoplay="autoplay" loop="loop"></video>
+            
+            <img id="timelapsevideo1" type="video" src="IMAGES/desert6.jpg"></img>
 
         </div>
 
@@ -626,7 +606,7 @@
 
                 <ul>
 
-                    <li><a class="menulinks" onclick="askSasha();">SUBMIT TO SASHA</a></li>
+                    <li><a class="menulinks" onclick="askSasha();">ASK SASHA</a></li>
 
                     <li><a class="menulinks" href="https://www.facebook.com/sasha.white.magic">SASHA'S FACEBOOK</a></li>
 
@@ -873,12 +853,14 @@
         <!----------------------------- ABOUT SASHA DIV 1 ---------------------------->
         
         <div id="aboutsashadiv1">
-            
-            <canvas id="myCanvas"></canvas>
-        
-            <h1 id="aboutsashaphrases1"></h1>
+          
+            <div id="roadgifcover"></div>
+           
+            <img id="roadgifimage" src="IMAGES/road.gif">
         
         </div>
+        
+        <h1 id="aboutsashasmokephrases"></h1>
         
         <a id="booksashalink1" href="#contactsashadiv" title="BOOK A SESSION">GET IN TOUCH</a>
         
@@ -1304,6 +1286,10 @@
                 
                 <img id="sashalastimage" src="IMAGES/sashalast.jpg">
                 
+                <a href="https://www.facebook.com/sasha.white.magic"><img id="facebookicon" src="IMAGES/facebookicon.png"></a>
+                
+                <a href="https://www.instagram.com/iamsashawhite/"><img id="instagramicon" src="IMAGES/instagramicon.png"></a>
+                
                 <form class="contact-form" action="contacthandler.php" method="post">
             
                     <p id="contactpar">For session inquiries and information enter your info.</p>
@@ -1348,7 +1334,7 @@
 
         <script type="text/javascript" src="parallax.min.js"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        <script src="iphonequery.js"></script>
         
         <!---------------------------- OTHER SCRIPT TAGS --------------------------->
 
