@@ -1,5 +1,7 @@
 //------------------- ONLOAD BLUR FUNCTION ------------------>
 
+/*
+
 function onLoadBlur() {
     
     document.getElementById("colImage1").style.filter = "blur(11px)";
@@ -27,6 +29,8 @@ function onLoadBlur() {
     document.getElementById("colImage12").style.filter = "blur(11px)";
     
 }
+
+*/
 
 //------------------------ DIAMOND ROTATION FUNCTION ----------------------->
 
@@ -1183,6 +1187,8 @@ function closeReel() {
 
 //----------- TIMELAPSE 1 VIDEO SCROLL BLUR FUNCTION ---------->
 
+/*
+
 $(window).scroll(function() {
     
     var restPosition = window.scrollY;
@@ -1330,6 +1336,8 @@ $(window).scroll(function() {
     }
     
 });
+
+*/
 
 //------------------- TEXT SHUFFLE EFFECT FUNCTIONS ------------------>
 
@@ -2049,36 +2057,6 @@ function scrollLoop(e) {
         
     }
     
-    if (yScrollPosition > 2180 && yScrollPosition < 2220) {
-        
-        document.getElementById("desertheader1").style.fontSize = "85px";
-    
-        document.getElementById("desertheader2").style.fontSize = "85px";
-    
-        document.getElementById("desertheader3").style.fontSize = "85px";
-    
-        document.getElementById("desertheader4").style.fontSize = "85px";
-    
-        document.getElementById("desertheader5").style.fontSize = "85px";
-        
-        document.getElementById("desertheader5").style.fontSize = "85px";
-        
-    } else if (yScrollPosition > 2180 && yScrollPosition < 2220) {
-        
-        document.getElementById("desertheader1").style.fontSize = "80px";
-    
-        document.getElementById("desertheader2").style.fontSize = "80px";
-    
-        document.getElementById("desertheader3").style.fontSize = "80px";
-    
-        document.getElementById("desertheader4").style.fontSize = "80px";
-    
-        document.getElementById("desertheader5").style.fontSize = "80px";
-        
-        document.getElementById("desertheader5").style.fontSize = "80px";
-        
-    }
-    
     if (yScrollPosition > 2000) {
         
         document.getElementById("desertheader1").style.zIndex = "500";
@@ -2133,55 +2111,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 1760 && restPosition < 1800) {
         
-        document.getElementById("colT1").style.marginTop = "35.5%";
+        document.getElementById("colT1").style.top = "35.5%";
         
-        document.getElementById("colT2").style.marginTop = "58.1%";
+        document.getElementById("colT2").style.top = "58.1%";
         
-        document.getElementById("colT3").style.marginTop = "69.5%";
+        document.getElementById("colT3").style.top = "69.5%";
         
-        document.getElementById("colT4").style.marginTop = "-2.3%";
+        document.getElementById("colT4").style.top = "-2.3%";
         
-        document.getElementById("colT5").style.marginTop = "6.7%";
+        document.getElementById("colT5").style.top = "6.7%";
         
-        document.getElementById("colT6").style.marginTop = "16.7%";
+        document.getElementById("colT6").style.top = "16.7%";
         
-        document.getElementById("colT7").style.marginTop = "19.7%";
+        document.getElementById("colT7").style.top = "19.7%";
         
-        document.getElementById("colT8").style.marginTop = "42.5%";
+        document.getElementById("colT8").style.top = "42.5%";
         
-        document.getElementById("colT9").style.marginTop = "65.6%";
+        document.getElementById("colT9").style.top = "65.6%";
         
-        document.getElementById("colT10").style.marginTop = "8.3%";
+        document.getElementById("colT10").style.top = "8.3%";
         
-        document.getElementById("colT11").style.marginTop = "56.4%";
+        document.getElementById("colT11").style.top = "56.4%";
         
-        document.getElementById("colT12").style.marginTop = "62.8%";
+        document.getElementById("colT12").style.top = "62.8%";
         
     } else if (restPosition < 1760) {
         
-        document.getElementById("colT1").style.marginTop = "36%";
+        document.getElementById("colT1").style.top = "36%";
         
-        document.getElementById("colT2").style.marginTop = "59.1%";
+        document.getElementById("colT2").style.top = "59.1%";
         
-        document.getElementById("colT3").style.marginTop = "71%";
+        document.getElementById("colT3").style.top = "71%";
         
-        document.getElementById("colT4").style.marginTop = "-4.3%";
+        document.getElementById("colT4").style.top = "-4.3%";
         
-        document.getElementById("colT5").style.marginTop = "5.2%";
+        document.getElementById("colT5").style.top = "5.2%";
         
-        document.getElementById("colT6").style.marginTop = "15.7%";
+        document.getElementById("colT6").style.top = "15.7%";
         
-        document.getElementById("colT7").style.marginTop = "19.2%";
+        document.getElementById("colT7").style.top = "19.2%";
         
-        document.getElementById("colT8").style.marginTop = "43.3%";
+        document.getElementById("colT8").style.top = "43.3%";
         
-        document.getElementById("colT9").style.marginTop = "66.9%";
+        document.getElementById("colT9").style.top = "66.9%";
         
-        document.getElementById("colT10").style.marginTop = "7%";
+        document.getElementById("colT10").style.top = "7%";
         
-        document.getElementById("colT11").style.marginTop = "57.8%";
+        document.getElementById("colT11").style.top = "57.8%";
         
-        document.getElementById("colT12").style.marginTop = "64.6%";
+        document.getElementById("colT12").style.top = "64.6%";
         
     }
     
@@ -2189,55 +2167,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 1800 && restPosition < 1840) {
         
-        document.getElementById("colT1").style.marginTop = "35%";
+        document.getElementById("colT1").style.top = "35%";
         
-        document.getElementById("colT2").style.marginTop = "57.1%";
+        document.getElementById("colT2").style.top = "57.1%";
         
-        document.getElementById("colT3").style.marginTop = "68%";
+        document.getElementById("colT3").style.top = "68%";
         
-        document.getElementById("colT4").style.marginTop = "-0.3%";
+        document.getElementById("colT4").style.top = "-0.3%";
         
-        document.getElementById("colT5").style.marginTop = "8.2%";
+        document.getElementById("colT5").style.top = "8.2%";
         
-        document.getElementById("colT6").style.marginTop = "17.7%";
+        document.getElementById("colT6").style.top = "17.7%";
         
-        document.getElementById("colT7").style.marginTop = "20.2%";
+        document.getElementById("colT7").style.top = "20.2%";
         
-        document.getElementById("colT8").style.marginTop = "41.7%";
+        document.getElementById("colT8").style.top = "41.7%";
         
-        document.getElementById("colT9").style.marginTop = "64.3%";
+        document.getElementById("colT9").style.top = "64.3%";
         
-        document.getElementById("colT10").style.marginTop = "9.6%";
+        document.getElementById("colT10").style.top = "9.6%";
         
-        document.getElementById("colT11").style.marginTop = "55%";
+        document.getElementById("colT11").style.top = "55%";
         
-        document.getElementById("colT12").style.marginTop = "61%";
+        document.getElementById("colT12").style.top = "61%";
         
     } else if (restPosition < 1800 && restPosition >= 1760) {
         
-        document.getElementById("colT1").style.marginTop = "35.5%";
+        document.getElementById("colT1").style.top = "35.5%";
         
-        document.getElementById("colT2").style.marginTop = "58.1%";
+        document.getElementById("colT2").style.top = "58.1%";
         
-        document.getElementById("colT3").style.marginTop = "69.5%";
+        document.getElementById("colT3").style.top = "69.5%";
         
-        document.getElementById("colT4").style.marginTop = "-2.3%";
+        document.getElementById("colT4").style.top = "-2.3%";
         
-        document.getElementById("colT5").style.marginTop = "6.7%";
+        document.getElementById("colT5").style.top = "6.7%";
         
-        document.getElementById("colT6").style.marginTop = "16.7%";
+        document.getElementById("colT6").style.top = "16.7%";
         
-        document.getElementById("colT7").style.marginTop = "19.7%";
+        document.getElementById("colT7").style.top = "19.7%";
         
-        document.getElementById("colT8").style.marginTop = "42.5%";
+        document.getElementById("colT8").style.top = "42.5%";
         
-        document.getElementById("colT9").style.marginTop = "65.6%";
+        document.getElementById("colT9").style.top = "65.6%";
         
-        document.getElementById("colT10").style.marginTop = "8.3%";
+        document.getElementById("colT10").style.top = "8.3%";
         
-        document.getElementById("colT11").style.marginTop = "56.4%";
+        document.getElementById("colT11").style.top = "56.4%";
         
-        document.getElementById("colT12").style.marginTop = "62.8%";
+        document.getElementById("colT12").style.top = "62.8%";
         
     }
     
@@ -2245,55 +2223,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 1840 && restPosition < 1880) {
         
-        document.getElementById("colT1").style.marginTop = "34.5%";
+        document.getElementById("colT1").style.top = "34.5%";
         
-        document.getElementById("colT2").style.marginTop = "56.1%";
+        document.getElementById("colT2").style.top = "56.1%";
         
-        document.getElementById("colT3").style.marginTop = "66.5%";
+        document.getElementById("colT3").style.top = "66.5%";
         
-        document.getElementById("colT4").style.marginTop = "1.7%";
+        document.getElementById("colT4").style.top = "1.7%";
         
-        document.getElementById("colT5").style.marginTop = "9.7%";
+        document.getElementById("colT5").style.top = "9.7%";
         
-        document.getElementById("colT6").style.marginTop = "18.7%";
+        document.getElementById("colT6").style.top = "18.7%";
         
-        document.getElementById("colT7").style.marginTop = "20.7%";
+        document.getElementById("colT7").style.top = "20.7%";
         
-        document.getElementById("colT8").style.marginTop = "40.9%";
+        document.getElementById("colT8").style.top = "40.9%";
         
-        document.getElementById("colT9").style.marginTop = "63%";
+        document.getElementById("colT9").style.top = "63%";
         
-        document.getElementById("colT10").style.marginTop = "10.9%";
+        document.getElementById("colT10").style.top = "10.9%";
         
-        document.getElementById("colT11").style.marginTop = "53.6%";
+        document.getElementById("colT11").style.top = "53.6%";
         
-        document.getElementById("colT12").style.marginTop = "59.2%";
+        document.getElementById("colT12").style.top = "59.2%";
         
     } else if (restPosition < 1840 && restPosition >= 1800) {
         
-        document.getElementById("colT1").style.marginTop = "35%";
+        document.getElementById("colT1").style.top = "35%";
         
-        document.getElementById("colT2").style.marginTop = "57.1%";
+        document.getElementById("colT2").style.top = "57.1%";
         
-        document.getElementById("colT3").style.marginTop = "68%";
+        document.getElementById("colT3").style.top = "68%";
         
-        document.getElementById("colT4").style.marginTop = "-0.3%";
+        document.getElementById("colT4").style.top = "-0.3%";
         
-        document.getElementById("colT5").style.marginTop = "8.2%";
+        document.getElementById("colT5").style.top = "8.2%";
         
-        document.getElementById("colT6").style.marginTop = "17.7%";
+        document.getElementById("colT6").style.top = "17.7%";
         
-        document.getElementById("colT7").style.marginTop = "20.2%";
+        document.getElementById("colT7").style.top = "20.2%";
         
-        document.getElementById("colT8").style.marginTop = "41.7%";
+        document.getElementById("colT8").style.top = "41.7%";
         
-        document.getElementById("colT9").style.marginTop = "64.3%";
+        document.getElementById("colT9").style.top = "64.3%";
         
-        document.getElementById("colT10").style.marginTop = "9.6%";
+        document.getElementById("colT10").style.top = "9.6%";
         
-        document.getElementById("colT11").style.marginTop = "55%";
+        document.getElementById("colT11").style.top = "55%";
         
-        document.getElementById("colT12").style.marginTop = "61%";
+        document.getElementById("colT12").style.top = "61%";
         
     }
     
@@ -2301,55 +2279,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 1880 && restPosition < 1920) {
         
-        document.getElementById("colT1").style.marginTop = "34%";
+        document.getElementById("colT1").style.top = "34%";
         
-        document.getElementById("colT2").style.marginTop = "55.1%";
+        document.getElementById("colT2").style.top = "55.1%";
         
-        document.getElementById("colT3").style.marginTop = "65%";
+        document.getElementById("colT3").style.top = "65%";
         
-        document.getElementById("colT4").style.marginTop = "3.7%";
+        document.getElementById("colT4").style.top = "3.7%";
         
-        document.getElementById("colT5").style.marginTop = "11.2%";
+        document.getElementById("colT5").style.top = "11.2%";
         
-        document.getElementById("colT6").style.marginTop = "19.7%";
+        document.getElementById("colT6").style.top = "19.7%";
         
-        document.getElementById("colT7").style.marginTop = "21.2%";
+        document.getElementById("colT7").style.top = "21.2%";
         
-        document.getElementById("colT8").style.marginTop = "40.1%";
+        document.getElementById("colT8").style.top = "40.1%";
         
-        document.getElementById("colT9").style.marginTop = "61.7%";
+        document.getElementById("colT9").style.top = "61.7%";
         
-        document.getElementById("colT10").style.marginTop = "12.2%";
+        document.getElementById("colT10").style.top = "12.2%";
         
-        document.getElementById("colT11").style.marginTop = "52.2%";
+        document.getElementById("colT11").style.top = "52.2%";
         
-        document.getElementById("colT12").style.marginTop = "57.4%";
+        document.getElementById("colT12").style.top = "57.4%";
         
     } else if (restPosition < 1880 && restPosition >= 1840) {
         
-        document.getElementById("colT1").style.marginTop = "34.5%";
+        document.getElementById("colT1").style.top = "34.5%";
         
-        document.getElementById("colT2").style.marginTop = "56.1%";
+        document.getElementById("colT2").style.top = "56.1%";
         
-        document.getElementById("colT3").style.marginTop = "66.5%";
+        document.getElementById("colT3").style.top = "66.5%";
         
-        document.getElementById("colT4").style.marginTop = "1.7%";
+        document.getElementById("colT4").style.top = "1.7%";
         
-        document.getElementById("colT5").style.marginTop = "9.7%";
+        document.getElementById("colT5").style.top = "9.7%";
         
-        document.getElementById("colT6").style.marginTop = "18.7%";
+        document.getElementById("colT6").style.top = "18.7%";
         
-        document.getElementById("colT7").style.marginTop = "20.7%";
+        document.getElementById("colT7").style.top = "20.7%";
         
-        document.getElementById("colT8").style.marginTop = "40.9%";
+        document.getElementById("colT8").style.top = "40.9%";
         
-        document.getElementById("colT9").style.marginTop = "63%";
+        document.getElementById("colT9").style.top = "63%";
         
-        document.getElementById("colT10").style.marginTop = "10.9%";
+        document.getElementById("colT10").style.top = "10.9%";
         
-        document.getElementById("colT11").style.marginTop = "53.6%";
+        document.getElementById("colT11").style.top = "53.6%";
         
-        document.getElementById("colT12").style.marginTop = "59.2%";
+        document.getElementById("colT12").style.top = "59.2%";
         
     }
     
@@ -2357,55 +2335,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 1920 && restPosition < 1960) {
         
-        document.getElementById("colT1").style.marginTop = "33.5%";
+        document.getElementById("colT1").style.top = "33.5%";
         
-        document.getElementById("colT2").style.marginTop = "54.1%";
+        document.getElementById("colT2").style.top = "54.1%";
         
-        document.getElementById("colT3").style.marginTop = "63.5%";
+        document.getElementById("colT3").style.top = "63.5%";
         
-        document.getElementById("colT4").style.marginTop = "5.7%";
+        document.getElementById("colT4").style.top = "5.7%";
         
-        document.getElementById("colT5").style.marginTop = "12.7%";
+        document.getElementById("colT5").style.top = "12.7%";
         
-        document.getElementById("colT6").style.marginTop = "20.7%";
+        document.getElementById("colT6").style.top = "20.7%";
         
-        document.getElementById("colT7").style.marginTop = "21.7%";
+        document.getElementById("colT7").style.top = "21.7%";
         
-        document.getElementById("colT8").style.marginTop = "39.3%";
+        document.getElementById("colT8").style.top = "39.3%";
         
-        document.getElementById("colT9").style.marginTop = "60.4%";
+        document.getElementById("colT9").style.top = "60.4%";
         
-        document.getElementById("colT10").style.marginTop = "13.5%";
+        document.getElementById("colT10").style.top = "13.5%";
         
-        document.getElementById("colT11").style.marginTop = "50.8%";
+        document.getElementById("colT11").style.top = "50.8%";
         
-        document.getElementById("colT12").style.marginTop = "55.6%";
+        document.getElementById("colT12").style.top = "55.6%";
         
     } else if (restPosition < 1920 && restPosition >= 1880) {
         
-        document.getElementById("colT1").style.marginTop = "34%";
+        document.getElementById("colT1").style.top = "34%";
         
-        document.getElementById("colT2").style.marginTop = "55.1%";
+        document.getElementById("colT2").style.top = "55.1%";
         
-        document.getElementById("colT3").style.marginTop = "65%";
+        document.getElementById("colT3").style.top = "65%";
         
-        document.getElementById("colT4").style.marginTop = "3.7%";
+        document.getElementById("colT4").style.top = "3.7%";
         
-        document.getElementById("colT5").style.marginTop = "11.2%";
+        document.getElementById("colT5").style.top = "11.2%";
         
-        document.getElementById("colT6").style.marginTop = "19.7%";
+        document.getElementById("colT6").style.top = "19.7%";
         
-        document.getElementById("colT7").style.marginTop = "21.2%";
+        document.getElementById("colT7").style.top = "21.2%";
         
-        document.getElementById("colT8").style.marginTop = "40.1%";
+        document.getElementById("colT8").style.top = "40.1%";
         
-        document.getElementById("colT9").style.marginTop = "61.7%";
+        document.getElementById("colT9").style.top = "61.7%";
         
-        document.getElementById("colT10").style.marginTop = "12.2%";
+        document.getElementById("colT10").style.top = "12.2%";
         
-        document.getElementById("colT11").style.marginTop = "52.2%";
+        document.getElementById("colT11").style.top = "52.2%";
         
-        document.getElementById("colT12").style.marginTop = "57.4%";
+        document.getElementById("colT12").style.top = "57.4%";
         
     }
     
@@ -2413,55 +2391,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 1960 && restPosition < 2000) {
         
-        document.getElementById("colT1").style.marginTop = "33%";
+        document.getElementById("colT1").style.top = "33%";
         
-        document.getElementById("colT2").style.marginTop = "53.1%";
+        document.getElementById("colT2").style.top = "53.1%";
         
-        document.getElementById("colT3").style.marginTop = "62%";
+        document.getElementById("colT3").style.top = "62%";
         
-        document.getElementById("colT4").style.marginTop = "7.7%";
+        document.getElementById("colT4").style.top = "7.7%";
         
-        document.getElementById("colT5").style.marginTop = "14.2%";
+        document.getElementById("colT5").style.top = "14.2%";
         
-        document.getElementById("colT6").style.marginTop = "21.7%";
+        document.getElementById("colT6").style.top = "21.7%";
         
-        document.getElementById("colT7").style.marginTop = "22.2%";
+        document.getElementById("colT7").style.top = "22.2%";
         
-        document.getElementById("colT8").style.marginTop = "38.5%";
+        document.getElementById("colT8").style.top = "38.5%";
         
-        document.getElementById("colT9").style.marginTop = "59.1%";
+        document.getElementById("colT9").style.top = "59.1%";
         
-        document.getElementById("colT10").style.marginTop = "14.8%";
+        document.getElementById("colT10").style.top = "14.8%";
         
-        document.getElementById("colT11").style.marginTop = "49.4%";
+        document.getElementById("colT11").style.top = "49.4%";
         
-        document.getElementById("colT12").style.marginTop = "53.8%";
+        document.getElementById("colT12").style.top = "53.8%";
         
     } else if (restPosition < 1960 && restPosition >= 1920) {
         
-        document.getElementById("colT1").style.marginTop = "33.5%";
+        document.getElementById("colT1").style.top = "33.5%";
         
-        document.getElementById("colT2").style.marginTop = "54.1%";
+        document.getElementById("colT2").style.top = "54.1%";
         
-        document.getElementById("colT3").style.marginTop = "63.5%";
+        document.getElementById("colT3").style.top = "63.5%";
         
-        document.getElementById("colT4").style.marginTop = "5.7%";
+        document.getElementById("colT4").style.top = "5.7%";
         
-        document.getElementById("colT5").style.marginTop = "12.7%";
+        document.getElementById("colT5").style.top = "12.7%";
         
-        document.getElementById("colT6").style.marginTop = "20.7%";
+        document.getElementById("colT6").style.top = "20.7%";
         
-        document.getElementById("colT7").style.marginTop = "21.7%";
+        document.getElementById("colT7").style.top = "21.7%";
         
-        document.getElementById("colT8").style.marginTop = "39.3%";
+        document.getElementById("colT8").style.top = "39.3%";
         
-        document.getElementById("colT9").style.marginTop = "60.4%";
+        document.getElementById("colT9").style.top = "60.4%";
         
-        document.getElementById("colT10").style.marginTop = "13.5%";
+        document.getElementById("colT10").style.top = "13.5%";
         
-        document.getElementById("colT11").style.marginTop = "50.8%";
+        document.getElementById("colT11").style.top = "50.8%";
         
-        document.getElementById("colT12").style.marginTop = "55.6%";
+        document.getElementById("colT12").style.top = "55.6%";
         
     }
     
@@ -2469,55 +2447,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 2000 && restPosition < 2040) {
         
-        document.getElementById("colT1").style.marginTop = "32.5%";
+        document.getElementById("colT1").style.top = "32.5%";
         
-        document.getElementById("colT2").style.marginTop = "52.1%";
+        document.getElementById("colT2").style.top = "52.1%";
         
-        document.getElementById("colT3").style.marginTop = "60.5%";
+        document.getElementById("colT3").style.top = "60.5%";
         
-        document.getElementById("colT4").style.marginTop = "9.7%";
+        document.getElementById("colT4").style.top = "9.7%";
         
-        document.getElementById("colT5").style.marginTop = "15.7%";
+        document.getElementById("colT5").style.top = "15.7%";
         
-        document.getElementById("colT6").style.marginTop = "22.7%";
+        document.getElementById("colT6").style.top = "22.7%";
         
-        document.getElementById("colT7").style.marginTop = "22.7%";
+        document.getElementById("colT7").style.top = "22.7%";
         
-        document.getElementById("colT8").style.marginTop = "37.7%";
+        document.getElementById("colT8").style.top = "37.7%";
         
-        document.getElementById("colT9").style.marginTop = "57.8%";
+        document.getElementById("colT9").style.top = "57.8%";
         
-        document.getElementById("colT10").style.marginTop = "16.1%";
+        document.getElementById("colT10").style.top = "16.1%";
         
-        document.getElementById("colT11").style.marginTop = "48%";
+        document.getElementById("colT11").style.top = "48%";
         
-        document.getElementById("colT12").style.marginTop = "52%";
+        document.getElementById("colT12").style.top = "52%";
         
     } else if (restPosition < 2000 && restPosition >= 1960) {
         
-        document.getElementById("colT1").style.marginTop = "33%";
+        document.getElementById("colT1").style.top = "33%";
         
-        document.getElementById("colT2").style.marginTop = "53.1%";
+        document.getElementById("colT2").style.top = "53.1%";
         
-        document.getElementById("colT3").style.marginTop = "62%";
+        document.getElementById("colT3").style.top = "62%";
         
-        document.getElementById("colT4").style.marginTop = "7.7%";
+        document.getElementById("colT4").style.top = "7.7%";
         
-        document.getElementById("colT5").style.marginTop = "14.2%";
+        document.getElementById("colT5").style.top = "14.2%";
         
-        document.getElementById("colT6").style.marginTop = "21.7%";
+        document.getElementById("colT6").style.top = "21.7%";
         
-        document.getElementById("colT7").style.marginTop = "22.2%";
+        document.getElementById("colT7").style.top = "22.2%";
         
-        document.getElementById("colT8").style.marginTop = "38.5%";
+        document.getElementById("colT8").style.top = "38.5%";
         
-        document.getElementById("colT9").style.marginTop = "59.1%";
+        document.getElementById("colT9").style.top = "59.1%";
         
-        document.getElementById("colT10").style.marginTop = "14.8%";
+        document.getElementById("colT10").style.top = "14.8%";
         
-        document.getElementById("colT11").style.marginTop = "49.4%";
+        document.getElementById("colT11").style.top = "49.4%";
         
-        document.getElementById("colT12").style.marginTop = "53.8%";
+        document.getElementById("colT12").style.top = "53.8%";
         
     }
     
@@ -2525,55 +2503,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 2040 && restPosition < 2080) {
         
-        document.getElementById("colT1").style.marginTop = "32%";
+        document.getElementById("colT1").style.top = "32%";
         
-        document.getElementById("colT2").style.marginTop = "51.1%";
+        document.getElementById("colT2").style.top = "51.1%";
         
-        document.getElementById("colT3").style.marginTop = "59%";
+        document.getElementById("colT3").style.top = "59%";
         
-        document.getElementById("colT4").style.marginTop = "11.7%";
+        document.getElementById("colT4").style.top = "11.7%";
         
-        document.getElementById("colT5").style.marginTop = "17.2%";
+        document.getElementById("colT5").style.top = "17.2%";
         
-        document.getElementById("colT6").style.marginTop = "23.7%";
+        document.getElementById("colT6").style.top = "23.7%";
         
-        document.getElementById("colT7").style.marginTop = "23.2%";
+        document.getElementById("colT7").style.top = "23.2%";
         
-        document.getElementById("colT8").style.marginTop = "36.9%";
+        document.getElementById("colT8").style.top = "36.9%";
         
-        document.getElementById("colT9").style.marginTop = "56.5%";
+        document.getElementById("colT9").style.top = "56.5%";
         
-        document.getElementById("colT10").style.marginTop = "17.4%";
+        document.getElementById("colT10").style.top = "17.4%";
         
-        document.getElementById("colT11").style.marginTop = "46.6%";
+        document.getElementById("colT11").style.top = "46.6%";
         
-        document.getElementById("colT12").style.marginTop = "50.2%";
+        document.getElementById("colT12").style.top = "50.2%";
         
     } else if (restPosition < 2040 && restPosition >= 2000) {
         
-        document.getElementById("colT1").style.marginTop = "32.5%";
+        document.getElementById("colT1").style.top = "32.5%";
         
-        document.getElementById("colT2").style.marginTop = "52.1%";
+        document.getElementById("colT2").style.top = "52.1%";
         
-        document.getElementById("colT3").style.marginTop = "60.5%";
+        document.getElementById("colT3").style.top = "60.5%";
         
-        document.getElementById("colT4").style.marginTop = "9.7%";
+        document.getElementById("colT4").style.top = "9.7%";
         
-        document.getElementById("colT5").style.marginTop = "15.7%";
+        document.getElementById("colT5").style.top = "15.7%";
         
-        document.getElementById("colT6").style.marginTop = "22.7%";
+        document.getElementById("colT6").style.top = "22.7%";
         
-        document.getElementById("colT7").style.marginTop = "22.7%";
+        document.getElementById("colT7").style.top = "22.7%";
         
-        document.getElementById("colT8").style.marginTop = "37.7%";
+        document.getElementById("colT8").style.top = "37.7%";
         
-        document.getElementById("colT9").style.marginTop = "57.8%";
+        document.getElementById("colT9").style.top = "57.8%";
         
-        document.getElementById("colT10").style.marginTop = "16.1%";
+        document.getElementById("colT10").style.top = "16.1%";
         
-        document.getElementById("colT11").style.marginTop = "48%";
+        document.getElementById("colT11").style.top = "48%";
         
-        document.getElementById("colT12").style.marginTop = "52%";
+        document.getElementById("colT12").style.top = "52%";
         
     }
     
@@ -2581,55 +2559,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 2080 && restPosition < 2120) {
         
-        document.getElementById("colT1").style.marginTop = "31.5%";
+        document.getElementById("colT1").style.top = "31.5%";
         
-        document.getElementById("colT2").style.marginTop = "50.1%";
+        document.getElementById("colT2").style.top = "50.1%";
         
-        document.getElementById("colT3").style.marginTop = "57.5%";
+        document.getElementById("colT3").style.top = "57.5%";
         
-        document.getElementById("colT4").style.marginTop = "13.7%";
+        document.getElementById("colT4").style.top = "13.7%";
         
-        document.getElementById("colT5").style.marginTop = "18.7%";
+        document.getElementById("colT5").style.top = "18.7%";
         
-        document.getElementById("colT6").style.marginTop = "24.7%";
+        document.getElementById("colT6").style.top = "24.7%";
         
-        document.getElementById("colT7").style.marginTop = "23.7%";
+        document.getElementById("colT7").style.top = "23.7%";
         
-        document.getElementById("colT8").style.marginTop = "36.1%";
+        document.getElementById("colT8").style.top = "36.1%";
         
-        document.getElementById("colT9").style.marginTop = "55.2%";
+        document.getElementById("colT9").style.top = "55.2%";
         
-        document.getElementById("colT10").style.marginTop = "18.7%";
+        document.getElementById("colT10").style.top = "18.7%";
         
-        document.getElementById("colT11").style.marginTop = "45.2%";
+        document.getElementById("colT11").style.top = "45.2%";
         
-        document.getElementById("colT12").style.marginTop = "48.4%";
+        document.getElementById("colT12").style.top = "48.4%";
         
     } else if (restPosition < 2080 && restPosition >= 2040) {
         
-        document.getElementById("colT1").style.marginTop = "32%";
+        document.getElementById("colT1").style.top = "32%";
         
-        document.getElementById("colT2").style.marginTop = "51.1%";
+        document.getElementById("colT2").style.top = "51.1%";
         
-        document.getElementById("colT3").style.marginTop = "59%";
+        document.getElementById("colT3").style.top = "59%";
         
-        document.getElementById("colT4").style.marginTop = "11.7%";
+        document.getElementById("colT4").style.top = "11.7%";
         
-        document.getElementById("colT5").style.marginTop = "17.2%";
+        document.getElementById("colT5").style.top = "17.2%";
         
-        document.getElementById("colT6").style.marginTop = "23.7%";
+        document.getElementById("colT6").style.top = "23.7%";
         
-        document.getElementById("colT7").style.marginTop = "23.2%";
+        document.getElementById("colT7").style.top = "23.2%";
         
-        document.getElementById("colT8").style.marginTop = "36.9%";
+        document.getElementById("colT8").style.top = "36.9%";
         
-        document.getElementById("colT9").style.marginTop = "56.5%";
+        document.getElementById("colT9").style.top = "56.5%";
         
-        document.getElementById("colT10").style.marginTop = "17.4%";
+        document.getElementById("colT10").style.top = "17.4%";
         
-        document.getElementById("colT11").style.marginTop = "46.6%";
+        document.getElementById("colT11").style.top = "46.6%";
         
-        document.getElementById("colT12").style.marginTop = "50.2%";
+        document.getElementById("colT12").style.top = "50.2%";
         
     }
     
@@ -2637,55 +2615,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 2120 && restPosition < 2160) {
         
-        document.getElementById("colT1").style.marginTop = "31%";
+        document.getElementById("colT1").style.top = "31%";
         
-        document.getElementById("colT2").style.marginTop = "49.1%";
+        document.getElementById("colT2").style.top = "49.1%";
         
-        document.getElementById("colT3").style.marginTop = "56%";
+        document.getElementById("colT3").style.top = "56%";
         
-        document.getElementById("colT4").style.marginTop = "15.7%";
+        document.getElementById("colT4").style.top = "15.7%";
         
-        document.getElementById("colT5").style.marginTop = "20.2%";
+        document.getElementById("colT5").style.top = "20.2%";
         
-        document.getElementById("colT6").style.marginTop = "25.7%";
+        document.getElementById("colT6").style.top = "25.7%";
         
-        document.getElementById("colT7").style.marginTop = "24.2%";
+        document.getElementById("colT7").style.top = "24.2%";
         
-        document.getElementById("colT8").style.marginTop = "35.3%";
+        document.getElementById("colT8").style.top = "35.3%";
         
-        document.getElementById("colT9").style.marginTop = "53.9%";
+        document.getElementById("colT9").style.top = "53.9%";
         
-        document.getElementById("colT10").style.marginTop = "20%";
+        document.getElementById("colT10").style.top = "20%";
         
-        document.getElementById("colT11").style.marginTop = "43.8%";
+        document.getElementById("colT11").style.top = "43.8%";
         
-        document.getElementById("colT12").style.marginTop = "46.6%";
+        document.getElementById("colT12").style.top = "46.6%";
         
     } else if (restPosition < 2120 && restPosition >= 2080) {
         
-        document.getElementById("colT1").style.marginTop = "31.5%";
+        document.getElementById("colT1").style.top = "31.5%";
         
-        document.getElementById("colT2").style.marginTop = "50.1%";
+        document.getElementById("colT2").style.top = "50.1%";
         
-        document.getElementById("colT3").style.marginTop = "57.5%";
+        document.getElementById("colT3").style.top = "57.5%";
         
-        document.getElementById("colT4").style.marginTop = "13.7%";
+        document.getElementById("colT4").style.top = "13.7%";
         
-        document.getElementById("colT5").style.marginTop = "18.7%";
+        document.getElementById("colT5").style.top = "18.7%";
         
-        document.getElementById("colT6").style.marginTop = "24.7%";
+        document.getElementById("colT6").style.top = "24.7%";
         
-        document.getElementById("colT7").style.marginTop = "23.7%";
+        document.getElementById("colT7").style.top = "23.7%";
         
-        document.getElementById("colT8").style.marginTop = "36.1%";
+        document.getElementById("colT8").style.top = "36.1%";
         
-        document.getElementById("colT9").style.marginTop = "55.2%";
+        document.getElementById("colT9").style.top = "55.2%";
         
-        document.getElementById("colT10").style.marginTop = "18.7%";
+        document.getElementById("colT10").style.top = "18.7%";
         
-        document.getElementById("colT11").style.marginTop = "45.2%";
+        document.getElementById("colT11").style.top = "45.2%";
         
-        document.getElementById("colT12").style.marginTop = "48.4%";
+        document.getElementById("colT12").style.top = "48.4%";
         
     }
     
@@ -2693,55 +2671,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 2160 && restPosition < 2200) {
         
-        document.getElementById("colT1").style.marginTop = "30.5%";
+        document.getElementById("colT1").style.top = "30.5%";
         
-        document.getElementById("colT2").style.marginTop = "48.1%";
+        document.getElementById("colT2").style.top = "48.1%";
         
-        document.getElementById("colT3").style.marginTop = "54.5%";
+        document.getElementById("colT3").style.top = "54.5%";
         
-        document.getElementById("colT4").style.marginTop = "17.7%";
+        document.getElementById("colT4").style.top = "17.7%";
         
-        document.getElementById("colT5").style.marginTop = "21.7%";
+        document.getElementById("colT5").style.top = "21.7%";
         
-        document.getElementById("colT6").style.marginTop = "26.7%";
+        document.getElementById("colT6").style.top = "26.7%";
         
-        document.getElementById("colT7").style.marginTop = "24.7%";
+        document.getElementById("colT7").style.top = "24.7%";
         
-        document.getElementById("colT8").style.marginTop = "34.5%";
+        document.getElementById("colT8").style.top = "34.5%";
         
-        document.getElementById("colT9").style.marginTop = "52.6%";
+        document.getElementById("colT9").style.top = "52.6%";
         
-        document.getElementById("colT10").style.marginTop = "21.3%";
+        document.getElementById("colT10").style.top = "21.3%";
         
-        document.getElementById("colT11").style.marginTop = "42.4%";
+        document.getElementById("colT11").style.top = "42.4%";
         
-        document.getElementById("colT12").style.marginTop = "44.8%";
+        document.getElementById("colT12").style.top = "44.8%";
         
     } else if (restPosition < 2160 && restPosition >= 2120) {
         
-        document.getElementById("colT1").style.marginTop = "31%";
+        document.getElementById("colT1").style.top = "31%";
         
-        document.getElementById("colT2").style.marginTop = "49.1%";
+        document.getElementById("colT2").style.top = "49.1%";
         
-        document.getElementById("colT3").style.marginTop = "56%";
+        document.getElementById("colT3").style.top = "56%";
         
-        document.getElementById("colT4").style.marginTop = "15.7%";
+        document.getElementById("colT4").style.top = "15.7%";
         
-        document.getElementById("colT5").style.marginTop = "20.2%";
+        document.getElementById("colT5").style.top = "20.2%";
         
-        document.getElementById("colT6").style.marginTop = "25.7%";
+        document.getElementById("colT6").style.top = "25.7%";
         
-        document.getElementById("colT7").style.marginTop = "24.2%";
+        document.getElementById("colT7").style.top = "24.2%";
         
-        document.getElementById("colT8").style.marginTop = "35.3%";
+        document.getElementById("colT8").style.top = "35.3%";
         
-        document.getElementById("colT9").style.marginTop = "53.9%";
+        document.getElementById("colT9").style.top = "53.9%";
         
-        document.getElementById("colT10").style.marginTop = "20%";
+        document.getElementById("colT10").style.top = "20%";
         
-        document.getElementById("colT11").style.marginTop = "43.8%";
+        document.getElementById("colT11").style.top = "43.8%";
         
-        document.getElementById("colT12").style.marginTop = "46.6%";
+        document.getElementById("colT12").style.top = "46.6%";
         
     }
     
@@ -2749,55 +2727,55 @@ $(window).scroll(function() {
     
     if (restPosition >= 2200) {
         
-        document.getElementById("colT1").style.marginTop = "30%";
+        document.getElementById("colT1").style.top = "30%";
     
-        document.getElementById("colT2").style.marginTop = "47.1%";
+        document.getElementById("colT2").style.top = "47.1%";
     
-        document.getElementById("colT3").style.marginTop = "53%";
+        document.getElementById("colT3").style.top = "53%";
     
-        document.getElementById("colT4").style.marginTop = "19.7%";
+        document.getElementById("colT4").style.top = "19.7%";
     
-        document.getElementById("colT5").style.marginTop = "23.2%";
+        document.getElementById("colT5").style.top = "23.2%";
     
-        document.getElementById("colT6").style.marginTop = "27.7%";
+        document.getElementById("colT6").style.top = "27.7%";
     
-        document.getElementById("colT7").style.marginTop = "25.2%";
+        document.getElementById("colT7").style.top = "25.2%";
     
-        document.getElementById("colT8").style.marginTop = "33.7%";
+        document.getElementById("colT8").style.top = "33.7%";
     
-        document.getElementById("colT9").style.marginTop = "51.3%";
+        document.getElementById("colT9").style.top = "51.3%";
     
-        document.getElementById("colT10").style.marginTop = "22.6%";
+        document.getElementById("colT10").style.top = "23%";
     
-        document.getElementById("colT11").style.marginTop = "40.92%";
+        document.getElementById("colT11").style.top = "40.92%";
     
-        document.getElementById("colT12").style.marginTop = "43%";
+        document.getElementById("colT12").style.top = "43%";
         
     } else if (restPosition < 2200 && restPosition >= 2160) {
         
-        document.getElementById("colT1").style.marginTop = "30.5%";
+        document.getElementById("colT1").style.top = "30.5%";
         
-        document.getElementById("colT2").style.marginTop = "48.1%";
+        document.getElementById("colT2").style.top = "48.1%";
         
-        document.getElementById("colT3").style.marginTop = "54.5%";
+        document.getElementById("colT3").style.top = "54.5%";
         
-        document.getElementById("colT4").style.marginTop = "17.7%";
+        document.getElementById("colT4").style.top = "17.7%";
         
-        document.getElementById("colT5").style.marginTop = "21.7%";
+        document.getElementById("colT5").style.top = "21.7%";
         
-        document.getElementById("colT6").style.marginTop = "26.7%";
+        document.getElementById("colT6").style.top = "26.7%";
         
-        document.getElementById("colT7").style.marginTop = "24.7%";
+        document.getElementById("colT7").style.top = "24.7%";
         
-        document.getElementById("colT8").style.marginTop = "34.5%";
+        document.getElementById("colT8").style.top = "34.5%";
         
-        document.getElementById("colT9").style.marginTop = "52.6%";
+        document.getElementById("colT9").style.top = "52.6%";
         
-        document.getElementById("colT10").style.marginTop = "21.3%";
+        document.getElementById("colT10").style.top = "21.3%";
         
-        document.getElementById("colT11").style.marginTop = "42.4%";
+        document.getElementById("colT11").style.top = "42.4%";
         
-        document.getElementById("colT12").style.marginTop = "44.8%";
+        document.getElementById("colT12").style.top = "44.8%";
         
     }
     
@@ -2813,57 +2791,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "15%";
+        document.getElementById("colT4").style.left = "15%";
         
-        document.getElementById("colT6").style.marginLeft = "34%";
+        document.getElementById("colT6").style.left = "34%";
         
-        document.getElementById("colT10").style.marginLeft = "4%";
+        document.getElementById("colT10").style.left = "4%";
         
-        document.getElementById("colT11").style.marginLeft = "6%";
+        document.getElementById("colT11").style.left = "6%";
         
-        document.getElementById("colT12").style.marginLeft = "26%";
+        document.getElementById("colT12").style.left = "26%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "49.5%";
+        document.getElementById("colT2").style.left = "49.5%";
         
-        document.getElementById("colT3").style.marginLeft = "64%";
+        document.getElementById("colT3").style.left = "64%";
         
-        document.getElementById("colT5").style.marginLeft = "51%";
+        document.getElementById("colT5").style.left = "51%";
         
-        document.getElementById("colT7").style.marginLeft = "76%";
+        document.getElementById("colT7").style.left = "76%";
         
-        document.getElementById("colT8").style.marginLeft = "73%";
+        document.getElementById("colT8").style.left = "73%";
         
-        document.getElementById("colT9").style.marginLeft = "84%";
+        document.getElementById("colT9").style.left = "84%";
         
     } else if (restPosition < 1760) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "13%";
+        document.getElementById("colT4").style.left = "13%";
         
-        document.getElementById("colT6").style.marginLeft = "33%";
+        document.getElementById("colT6").style.left = "33%";
         
-        document.getElementById("colT10").style.marginLeft = "2%";
+        document.getElementById("colT10").style.left = "2%";
         
-        document.getElementById("colT11").style.marginLeft = "4%";
+        document.getElementById("colT11").style.left = "4%";
         
-        document.getElementById("colT12").style.marginLeft = "25%";
+        document.getElementById("colT12").style.left = "25%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "50%";
+        document.getElementById("colT2").style.left = "50%";
         
-        document.getElementById("colT3").style.marginLeft = "65%";
+        document.getElementById("colT3").style.left = "65%";
         
-        document.getElementById("colT5").style.marginLeft = "52%";
+        document.getElementById("colT5").style.left = "52%";
         
-        document.getElementById("colT7").style.marginLeft = "77%";
+        document.getElementById("colT7").style.left = "77%";
         
-        document.getElementById("colT8").style.marginLeft = "74%";
+        document.getElementById("colT8").style.left = "74%";
         
-        document.getElementById("colT9").style.marginLeft = "86%";
+        document.getElementById("colT9").style.left = "86%";
         
     }
     
@@ -2873,57 +2851,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "17%";
+        document.getElementById("colT4").style.left = "17%";
         
-        document.getElementById("colT6").style.marginLeft = "35%";
+        document.getElementById("colT6").style.left = "35%";
         
-        document.getElementById("colT10").style.marginLeft = "6%";
+        document.getElementById("colT10").style.left = "6%";
         
-        document.getElementById("colT11").style.marginLeft = "8%";
+        document.getElementById("colT11").style.left = "8%";
         
-        document.getElementById("colT12").style.marginLeft = "27%";
+        document.getElementById("colT12").style.left = "27%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "49%";
+        document.getElementById("colT2").style.left = "49%";
         
-        document.getElementById("colT3").style.marginLeft = "63%";
+        document.getElementById("colT3").style.left = "63%";
         
-        document.getElementById("colT5").style.marginLeft = "50%";
+        document.getElementById("colT5").style.left = "50%";
         
-        document.getElementById("colT7").style.marginLeft = "75%";
+        document.getElementById("colT7").style.left = "75%";
         
-        document.getElementById("colT8").style.marginLeft = "72%";
+        document.getElementById("colT8").style.left = "72%";
         
-        document.getElementById("colT9").style.marginLeft = "82%";
+        document.getElementById("colT9").style.left = "82%";
         
     } else if (restPosition < 1800 && restPosition >= 1760) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "15%";
+        document.getElementById("colT4").style.left = "15%";
         
-        document.getElementById("colT6").style.marginLeft = "34%";
+        document.getElementById("colT6").style.left = "34%";
         
-        document.getElementById("colT10").style.marginLeft = "4%";
+        document.getElementById("colT10").style.left = "4%";
         
-        document.getElementById("colT11").style.marginLeft = "6%";
+        document.getElementById("colT11").style.left = "6%";
         
-        document.getElementById("colT12").style.marginLeft = "26%";
+        document.getElementById("colT12").style.left = "26%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "49.5%";
+        document.getElementById("colT2").style.left = "49.5%";
         
-        document.getElementById("colT3").style.marginLeft = "64%";
+        document.getElementById("colT3").style.left = "64%";
         
-        document.getElementById("colT5").style.marginLeft = "51%";
+        document.getElementById("colT5").style.left = "51%";
         
-        document.getElementById("colT7").style.marginLeft = "76%";
+        document.getElementById("colT7").style.left = "76%";
         
-        document.getElementById("colT8").style.marginLeft = "73%";
+        document.getElementById("colT8").style.left = "73%";
         
-        document.getElementById("colT9").style.marginLeft = "84%";
+        document.getElementById("colT9").style.left = "84%";
         
     }
     
@@ -2933,57 +2911,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "19%";
+        document.getElementById("colT4").style.left = "19%";
         
-        document.getElementById("colT6").style.marginLeft = "36%";
+        document.getElementById("colT6").style.left = "36%";
         
-        document.getElementById("colT10").style.marginLeft = "8%";
+        document.getElementById("colT10").style.left = "8%";
         
-        document.getElementById("colT11").style.marginLeft = "10%";
+        document.getElementById("colT11").style.left = "10%";
         
-        document.getElementById("colT12").style.marginLeft = "28%";
+        document.getElementById("colT12").style.left = "28%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "48.5%";
+        document.getElementById("colT2").style.left = "48.5%";
         
-        document.getElementById("colT3").style.marginLeft = "62%";
+        document.getElementById("colT3").style.left = "62%";
         
-        document.getElementById("colT5").style.marginLeft = "49%";
+        document.getElementById("colT5").style.left = "49%";
         
-        document.getElementById("colT7").style.marginLeft = "73%";
+        document.getElementById("colT7").style.left = "73%";
         
-        document.getElementById("colT8").style.marginLeft = "71%";
+        document.getElementById("colT8").style.left = "71%";
         
-        document.getElementById("colT9").style.marginLeft = "80%";
+        document.getElementById("colT9").style.left = "80%";
         
     } else if (restPosition < 1840 && restPosition >= 1800) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "17%";
+        document.getElementById("colT4").style.left = "17%";
         
-        document.getElementById("colT6").style.marginLeft = "35%";
+        document.getElementById("colT6").style.left = "35%";
         
-        document.getElementById("colT10").style.marginLeft = "6%";
+        document.getElementById("colT10").style.left = "6%";
         
-        document.getElementById("colT11").style.marginLeft = "8%";
+        document.getElementById("colT11").style.left = "8%";
         
-        document.getElementById("colT12").style.marginLeft = "27%";
+        document.getElementById("colT12").style.left = "27%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "49%";
+        document.getElementById("colT2").style.left = "49%";
         
-        document.getElementById("colT3").style.marginLeft = "63%";
+        document.getElementById("colT3").style.left = "63%";
         
-        document.getElementById("colT5").style.marginLeft = "50%";
+        document.getElementById("colT5").style.left = "50%";
         
-        document.getElementById("colT7").style.marginLeft = "75%";
+        document.getElementById("colT7").style.left = "75%";
         
-        document.getElementById("colT8").style.marginLeft = "72%";
+        document.getElementById("colT8").style.left = "72%";
         
-        document.getElementById("colT9").style.marginLeft = "82%";
+        document.getElementById("colT9").style.left = "82%";
         
     }
     
@@ -2993,57 +2971,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "21%";
+        document.getElementById("colT4").style.left = "21%";
         
-        document.getElementById("colT6").style.marginLeft = "37%";
+        document.getElementById("colT6").style.left = "37%";
         
-        document.getElementById("colT10").style.marginLeft = "10%";
+        document.getElementById("colT10").style.left = "10%";
         
-        document.getElementById("colT11").style.marginLeft = "12%";
+        document.getElementById("colT11").style.left = "12%";
         
-        document.getElementById("colT12").style.marginLeft = "29%";
+        document.getElementById("colT12").style.left = "29%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "48%";
+        document.getElementById("colT2").style.left = "48%";
         
-        document.getElementById("colT3").style.marginLeft = "61%";
+        document.getElementById("colT3").style.left = "61%";
         
-        document.getElementById("colT5").style.marginLeft = "48%";
+        document.getElementById("colT5").style.left = "48%";
         
-        document.getElementById("colT7").style.marginLeft = "71%";
+        document.getElementById("colT7").style.left = "71%";
         
-        document.getElementById("colT8").style.marginLeft = "70%";
+        document.getElementById("colT8").style.left = "70%";
         
-        document.getElementById("colT9").style.marginLeft = "78%";
+        document.getElementById("colT9").style.left = "78%";
         
     } else if (restPosition < 1880 && restPosition >= 1840) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "19%";
+        document.getElementById("colT4").style.left = "19%";
         
-        document.getElementById("colT6").style.marginLeft = "36%";
+        document.getElementById("colT6").style.left = "36%";
         
-        document.getElementById("colT10").style.marginLeft = "8%";
+        document.getElementById("colT10").style.left = "8%";
         
-        document.getElementById("colT11").style.marginLeft = "10%";
+        document.getElementById("colT11").style.left = "10%";
         
-        document.getElementById("colT12").style.marginLeft = "28%";
+        document.getElementById("colT12").style.left = "28%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "48.5%";
+        document.getElementById("colT2").style.left = "48.5%";
         
-        document.getElementById("colT3").style.marginLeft = "62%";
+        document.getElementById("colT3").style.left = "62%";
         
-        document.getElementById("colT5").style.marginLeft = "49%";
+        document.getElementById("colT5").style.left = "49%";
         
-        document.getElementById("colT7").style.marginLeft = "73%";
+        document.getElementById("colT7").style.left = "73%";
         
-        document.getElementById("colT8").style.marginLeft = "71%";
+        document.getElementById("colT8").style.left = "71%";
         
-        document.getElementById("colT9").style.marginLeft = "80%";
+        document.getElementById("colT9").style.left = "80%";
         
     }
     
@@ -3053,57 +3031,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "23%";
+        document.getElementById("colT4").style.left = "23%";
         
-        document.getElementById("colT6").style.marginLeft = "38%";
+        document.getElementById("colT6").style.left = "38%";
         
-        document.getElementById("colT10").style.marginLeft = "13%";
+        document.getElementById("colT10").style.left = "13%";
         
-        document.getElementById("colT11").style.marginLeft = "14%";
+        document.getElementById("colT11").style.left = "14%";
         
-        document.getElementById("colT12").style.marginLeft = "30%";
+        document.getElementById("colT12").style.left = "30%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "47.5%";
+        document.getElementById("colT2").style.left = "47.5%";
         
-        document.getElementById("colT3").style.marginLeft = "60%";
+        document.getElementById("colT3").style.left = "60%";
         
-        document.getElementById("colT5").style.marginLeft = "47%";
+        document.getElementById("colT5").style.left = "47%";
         
-        document.getElementById("colT7").style.marginLeft = "69%";
+        document.getElementById("colT7").style.left = "69%";
         
-        document.getElementById("colT8").style.marginLeft = "69%";
+        document.getElementById("colT8").style.left = "69%";
         
-        document.getElementById("colT9").style.marginLeft = "76%";
+        document.getElementById("colT9").style.left = "76%";
         
     } else if (restPosition < 1920 && restPosition >= 1880) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "21%";
+        document.getElementById("colT4").style.left = "21%";
         
-        document.getElementById("colT6").style.marginLeft = "37%";
+        document.getElementById("colT6").style.left = "37%";
         
-        document.getElementById("colT10").style.marginLeft = "10%";
+        document.getElementById("colT10").style.left = "10%";
         
-        document.getElementById("colT11").style.marginLeft = "12%";
+        document.getElementById("colT11").style.left = "12%";
         
-        document.getElementById("colT12").style.marginLeft = "29%";
+        document.getElementById("colT12").style.left = "29%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "48%";
+        document.getElementById("colT2").style.left = "48%";
         
-        document.getElementById("colT3").style.marginLeft = "61%";
+        document.getElementById("colT3").style.left = "61%";
         
-        document.getElementById("colT5").style.marginLeft = "48%";
+        document.getElementById("colT5").style.left = "48%";
         
-        document.getElementById("colT7").style.marginLeft = "71%";
+        document.getElementById("colT7").style.left = "71%";
         
-        document.getElementById("colT8").style.marginLeft = "70%";
+        document.getElementById("colT8").style.left = "70%";
         
-        document.getElementById("colT9").style.marginLeft = "78%";
+        document.getElementById("colT9").style.left = "78%";
         
     }
     
@@ -3113,57 +3091,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "25%";
+        document.getElementById("colT4").style.left = "25%";
         
-        document.getElementById("colT6").style.marginLeft = "39%";
+        document.getElementById("colT6").style.left = "39%";
         
-        document.getElementById("colT10").style.marginLeft = "16%";
+        document.getElementById("colT10").style.left = "16%";
         
-        document.getElementById("colT11").style.marginLeft = "16%";
+        document.getElementById("colT11").style.left = "16%";
         
-        document.getElementById("colT12").style.marginLeft = "31%";
+        document.getElementById("colT12").style.left = "31%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "47%";
+        document.getElementById("colT2").style.left = "47%";
         
-        document.getElementById("colT3").style.marginLeft = "59%";
+        document.getElementById("colT3").style.left = "59%";
         
-        document.getElementById("colT5").style.marginLeft = "46%";
+        document.getElementById("colT5").style.left = "46%";
         
-        document.getElementById("colT7").style.marginLeft = "67%";
+        document.getElementById("colT7").style.left = "67%";
         
-        document.getElementById("colT8").style.marginLeft = "68%";
+        document.getElementById("colT8").style.left = "68%";
         
-        document.getElementById("colT9").style.marginLeft = "74%";
+        document.getElementById("colT9").style.left = "74%";
         
     } else if (restPosition < 1960 && restPosition >= 1920) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "23%";
+        document.getElementById("colT4").style.left = "23%";
         
-        document.getElementById("colT6").style.marginLeft = "38%";
+        document.getElementById("colT6").style.left = "38%";
         
-        document.getElementById("colT10").style.marginLeft = "13%";
+        document.getElementById("colT10").style.left = "13%";
         
-        document.getElementById("colT11").style.marginLeft = "14%";
+        document.getElementById("colT11").style.left = "14%";
         
-        document.getElementById("colT12").style.marginLeft = "30%";
+        document.getElementById("colT12").style.left = "30%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "47.5%";
+        document.getElementById("colT2").style.left = "47.5%";
         
-        document.getElementById("colT3").style.marginLeft = "60%";
+        document.getElementById("colT3").style.left = "60%";
         
-        document.getElementById("colT5").style.marginLeft = "47%";
+        document.getElementById("colT5").style.left = "47%";
         
-        document.getElementById("colT7").style.marginLeft = "69%";
+        document.getElementById("colT7").style.left = "69%";
         
-        document.getElementById("colT8").style.marginLeft = "69%";
+        document.getElementById("colT8").style.left = "69%";
         
-        document.getElementById("colT9").style.marginLeft = "76%";
+        document.getElementById("colT9").style.left = "76%";
         
     }
     
@@ -3173,57 +3151,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "27%";
+        document.getElementById("colT4").style.left = "27%";
         
-        document.getElementById("colT6").style.marginLeft = "40%";
+        document.getElementById("colT6").style.left = "40%";
         
-        document.getElementById("colT10").style.marginLeft = "18%";
+        document.getElementById("colT10").style.left = "18%";
         
-        document.getElementById("colT11").style.marginLeft = "18%";
+        document.getElementById("colT11").style.left = "18%";
         
-        document.getElementById("colT12").style.marginLeft = "32%";
+        document.getElementById("colT12").style.left = "32%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "46.5%";
+        document.getElementById("colT2").style.left = "46.5%";
         
-        document.getElementById("colT3").style.marginLeft = "58%";
+        document.getElementById("colT3").style.left = "58%";
         
-        document.getElementById("colT5").style.marginLeft = "45%";
+        document.getElementById("colT5").style.left = "45%";
         
-        document.getElementById("colT7").style.marginLeft = "65%";
+        document.getElementById("colT7").style.left = "65%";
         
-        document.getElementById("colT8").style.marginLeft = "67%";
+        document.getElementById("colT8").style.left = "67%";
         
-        document.getElementById("colT9").style.marginLeft = "72%";
+        document.getElementById("colT9").style.left = "72%";
         
     } else if (restPosition < 2000 && restPosition >= 1960) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "25%";
+        document.getElementById("colT4").style.left = "25%";
         
-        document.getElementById("colT6").style.marginLeft = "39%";
+        document.getElementById("colT6").style.left = "39%";
         
-        document.getElementById("colT10").style.marginLeft = "16%";
+        document.getElementById("colT10").style.left = "16%";
         
-        document.getElementById("colT11").style.marginLeft = "16%";
+        document.getElementById("colT11").style.left = "16%";
         
-        document.getElementById("colT12").style.marginLeft = "31%";
+        document.getElementById("colT12").style.left = "31%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "47%";
+        document.getElementById("colT2").style.left = "47%";
         
-        document.getElementById("colT3").style.marginLeft = "59%";
+        document.getElementById("colT3").style.left = "59%";
         
-        document.getElementById("colT5").style.marginLeft = "46%";
+        document.getElementById("colT5").style.left = "46%";
         
-        document.getElementById("colT7").style.marginLeft = "67%";
+        document.getElementById("colT7").style.left = "67%";
         
-        document.getElementById("colT8").style.marginLeft = "68%";
+        document.getElementById("colT8").style.left = "68%";
         
-        document.getElementById("colT9").style.marginLeft = "74%";
+        document.getElementById("colT9").style.left = "74%";
         
     }
     
@@ -3233,57 +3211,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "29%";
+        document.getElementById("colT4").style.left = "29%";
         
-        document.getElementById("colT6").style.marginLeft = "41%";
+        document.getElementById("colT6").style.left = "41%";
         
-        document.getElementById("colT10").style.marginLeft = "20%";
+        document.getElementById("colT10").style.left = "20%";
         
-        document.getElementById("colT11").style.marginLeft = "20%";
+        document.getElementById("colT11").style.left = "20%";
         
-        document.getElementById("colT12").style.marginLeft = "33%";
+        document.getElementById("colT12").style.left = "33%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "46%";
+        document.getElementById("colT2").style.left = "46%";
         
-        document.getElementById("colT3").style.marginLeft = "57%";
+        document.getElementById("colT3").style.left = "57%";
         
-        document.getElementById("colT5").style.marginLeft = "44%";
+        document.getElementById("colT5").style.left = "44%";
         
-        document.getElementById("colT7").style.marginLeft = "63%";
+        document.getElementById("colT7").style.left = "63%";
         
-        document.getElementById("colT8").style.marginLeft = "66%";
+        document.getElementById("colT8").style.left = "66%";
         
-        document.getElementById("colT9").style.marginLeft = "70%";
+        document.getElementById("colT9").style.left = "70%";
         
     } else if (restPosition < 2040 && restPosition >= 2000) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "27%";
+        document.getElementById("colT4").style.left = "27%";
         
-        document.getElementById("colT6").style.marginLeft = "40%";
+        document.getElementById("colT6").style.left = "40%";
         
-        document.getElementById("colT10").style.marginLeft = "18%";
+        document.getElementById("colT10").style.left = "18%";
         
-        document.getElementById("colT11").style.marginLeft = "18%";
+        document.getElementById("colT11").style.left = "18%";
         
-        document.getElementById("colT12").style.marginLeft = "32%";
+        document.getElementById("colT12").style.left = "32%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "46.5%";
+        document.getElementById("colT2").style.left = "46.5%";
         
-        document.getElementById("colT3").style.marginLeft = "58%";
+        document.getElementById("colT3").style.left = "58%";
         
-        document.getElementById("colT5").style.marginLeft = "45%";
+        document.getElementById("colT5").style.left = "45%";
         
-        document.getElementById("colT7").style.marginLeft = "65%";
+        document.getElementById("colT7").style.left = "65%";
         
-        document.getElementById("colT8").style.marginLeft = "67%";
+        document.getElementById("colT8").style.left = "67%";
         
-        document.getElementById("colT9").style.marginLeft = "72%";
+        document.getElementById("colT9").style.left = "72%";
         
     }
     
@@ -3293,57 +3271,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "30%";
+        document.getElementById("colT4").style.left = "30%";
         
-        document.getElementById("colT6").style.marginLeft = "42%";
+        document.getElementById("colT6").style.left = "42%";
         
-        document.getElementById("colT10").style.marginLeft = "23%";
+        document.getElementById("colT10").style.left = "23%";
         
-        document.getElementById("colT11").style.marginLeft = "22%";
+        document.getElementById("colT11").style.left = "22%";
         
-        document.getElementById("colT12").style.marginLeft = "34%";
+        document.getElementById("colT12").style.left = "34%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "45.5%";
+        document.getElementById("colT2").style.left = "45.5%";
         
-        document.getElementById("colT3").style.marginLeft = "56%";
+        document.getElementById("colT3").style.left = "56%";
         
-        document.getElementById("colT5").style.marginLeft = "43%";
+        document.getElementById("colT5").style.left = "43%";
         
-        document.getElementById("colT7").style.marginLeft = "61%";
+        document.getElementById("colT7").style.left = "61%";
         
-        document.getElementById("colT8").style.marginLeft = "65%";
+        document.getElementById("colT8").style.left = "65%";
         
-        document.getElementById("colT9").style.marginLeft = "68%";
+        document.getElementById("colT9").style.left = "68%";
         
     } else if (restPosition < 2080 && restPosition >= 2040) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "29%";
+        document.getElementById("colT4").style.left = "29%";
         
-        document.getElementById("colT6").style.marginLeft = "41%";
+        document.getElementById("colT6").style.left = "41%";
         
-        document.getElementById("colT10").style.marginLeft = "20%";
+        document.getElementById("colT10").style.left = "20%";
         
-        document.getElementById("colT11").style.marginLeft = "20%";
+        document.getElementById("colT11").style.left = "20%";
         
-        document.getElementById("colT12").style.marginLeft = "33%";
+        document.getElementById("colT12").style.left = "33%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "46%";
+        document.getElementById("colT2").style.left = "46%";
         
-        document.getElementById("colT3").style.marginLeft = "57%";
+        document.getElementById("colT3").style.left = "57%";
         
-        document.getElementById("colT5").style.marginLeft = "44%";
+        document.getElementById("colT5").style.left = "44%";
         
-        document.getElementById("colT7").style.marginLeft = "63%";
+        document.getElementById("colT7").style.left = "63%";
         
-        document.getElementById("colT8").style.marginLeft = "66%";
+        document.getElementById("colT8").style.left = "66%";
         
-        document.getElementById("colT9").style.marginLeft = "70%";
+        document.getElementById("colT9").style.left = "70%";
         
     }
     
@@ -3353,57 +3331,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "32%";
+        document.getElementById("colT4").style.left = "32%";
         
-        document.getElementById("colT6").style.marginLeft = "43%";
+        document.getElementById("colT6").style.left = "43%";
         
-        document.getElementById("colT10").style.marginLeft = "25%";
+        document.getElementById("colT10").style.left = "25%";
         
-        document.getElementById("colT11").style.marginLeft = "24%";
+        document.getElementById("colT11").style.left = "24%";
         
-        document.getElementById("colT12").style.marginLeft = "35%";
+        document.getElementById("colT12").style.left = "35%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "45%";
+        document.getElementById("colT2").style.left = "45%";
         
-        document.getElementById("colT3").style.marginLeft = "55%";
+        document.getElementById("colT3").style.left = "55%";
         
-        document.getElementById("colT5").style.marginLeft = "42%";
+        document.getElementById("colT5").style.left = "42%";
         
-        document.getElementById("colT7").style.marginLeft = "59%";
+        document.getElementById("colT7").style.left = "59%";
         
-        document.getElementById("colT8").style.marginLeft = "64%";
+        document.getElementById("colT8").style.left = "64%";
         
-        document.getElementById("colT9").style.marginLeft = "66%";
+        document.getElementById("colT9").style.left = "66%";
         
     } else if (restPosition < 2120 && restPosition >= 2080) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "30%";
+        document.getElementById("colT4").style.left = "30%";
         
-        document.getElementById("colT6").style.marginLeft = "42%";
+        document.getElementById("colT6").style.left = "42%";
         
-        document.getElementById("colT10").style.marginLeft = "23%";
+        document.getElementById("colT10").style.left = "23%";
         
-        document.getElementById("colT11").style.marginLeft = "22%";
+        document.getElementById("colT11").style.left = "22%";
         
-        document.getElementById("colT12").style.marginLeft = "34%";
+        document.getElementById("colT12").style.left = "34%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "45.5%";
+        document.getElementById("colT2").style.left = "45.5%";
         
-        document.getElementById("colT3").style.marginLeft = "56%";
+        document.getElementById("colT3").style.left = "56%";
         
-        document.getElementById("colT5").style.marginLeft = "43%";
+        document.getElementById("colT5").style.left = "43%";
         
-        document.getElementById("colT7").style.marginLeft = "61%";
+        document.getElementById("colT7").style.left = "61%";
         
-        document.getElementById("colT8").style.marginLeft = "65%";
+        document.getElementById("colT8").style.left = "65%";
         
-        document.getElementById("colT9").style.marginLeft = "68%";
+        document.getElementById("colT9").style.left = "68%";
         
     }
     
@@ -3413,57 +3391,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "34%";
+        document.getElementById("colT4").style.left = "34%";
         
-        document.getElementById("colT6").style.marginLeft = "44%";
+        document.getElementById("colT6").style.left = "44%";
         
-        document.getElementById("colT10").style.marginLeft = "27%";
+        document.getElementById("colT10").style.left = "27%";
         
-        document.getElementById("colT11").style.marginLeft = "27%";
+        document.getElementById("colT11").style.left = "27%";
         
-        document.getElementById("colT12").style.marginLeft = "36%";
+        document.getElementById("colT12").style.left = "36%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "44.5%";
+        document.getElementById("colT2").style.left = "44.5%";
         
-        document.getElementById("colT3").style.marginLeft = "54%";
+        document.getElementById("colT3").style.left = "54%";
         
-        document.getElementById("colT5").style.marginLeft = "41%";
+        document.getElementById("colT5").style.left = "41%";
         
-        document.getElementById("colT7").style.marginLeft = "57%";
+        document.getElementById("colT7").style.left = "57%";
         
-        document.getElementById("colT8").style.marginLeft = "63%";
+        document.getElementById("colT8").style.left = "63%";
         
-        document.getElementById("colT9").style.marginLeft = "64%";
+        document.getElementById("colT9").style.left = "64%";
         
     } else if (restPosition < 2160 && restPosition >= 2120) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "32%";
+        document.getElementById("colT4").style.left = "32%";
         
-        document.getElementById("colT6").style.marginLeft = "43%";
+        document.getElementById("colT6").style.left = "43%";
         
-        document.getElementById("colT10").style.marginLeft = "25%";
+        document.getElementById("colT10").style.left = "25%";
         
-        document.getElementById("colT11").style.marginLeft = "24%";
+        document.getElementById("colT11").style.left = "24%";
         
-        document.getElementById("colT12").style.marginLeft = "35%";
+        document.getElementById("colT12").style.left = "35%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "45%";
+        document.getElementById("colT2").style.left = "45%";
         
-        document.getElementById("colT3").style.marginLeft = "55%";
+        document.getElementById("colT3").style.left = "55%";
         
-        document.getElementById("colT5").style.marginLeft = "42%";
+        document.getElementById("colT5").style.left = "42%";
         
-        document.getElementById("colT7").style.marginLeft = "59%";
+        document.getElementById("colT7").style.left = "59%";
         
-        document.getElementById("colT8").style.marginLeft = "64%";
+        document.getElementById("colT8").style.left = "64%";
         
-        document.getElementById("colT9").style.marginLeft = "66%";
+        document.getElementById("colT9").style.left = "66%";
         
     }
     
@@ -3473,57 +3451,57 @@ $(window).scroll(function() {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "35%";
+        document.getElementById("colT4").style.left = "35%";
         
-        document.getElementById("colT6").style.marginLeft = "45%";
+        document.getElementById("colT6").style.left = "45%";
         
-        document.getElementById("colT10").style.marginLeft = "31%";
+        document.getElementById("colT10").style.left = "31%";
         
-        document.getElementById("colT11").style.marginLeft = "31%";
+        document.getElementById("colT11").style.left = "31%";
         
-        document.getElementById("colT12").style.marginLeft = "37%";
+        document.getElementById("colT12").style.left = "37%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "44%";
+        document.getElementById("colT2").style.left = "44%";
         
-        document.getElementById("colT3").style.marginLeft = "53%";
+        document.getElementById("colT3").style.left = "53%";
         
-        document.getElementById("colT5").style.marginLeft = "40%";
+        document.getElementById("colT5").style.left = "40%";
         
-        document.getElementById("colT7").style.marginLeft = "55%";
+        document.getElementById("colT7").style.left = "55%";
         
-        document.getElementById("colT8").style.marginLeft = "62%";
+        document.getElementById("colT8").style.left = "62%";
         
-        document.getElementById("colT9").style.marginLeft = "62%";
+        document.getElementById("colT9").style.left = "62%";
         
     } else if (restPosition < 2200 && restPosition >= 2160) {
         
         //--- MOVE RIGHT --->
         
-        document.getElementById("colT4").style.marginLeft = "34%";
+        document.getElementById("colT4").style.left = "34%";
         
-        document.getElementById("colT6").style.marginLeft = "44%";
+        document.getElementById("colT6").style.left = "44%";
         
-        document.getElementById("colT10").style.marginLeft = "27%";
+        document.getElementById("colT10").style.left = "27%";
         
-        document.getElementById("colT11").style.marginLeft = "27%";
+        document.getElementById("colT11").style.left = "27%";
         
-        document.getElementById("colT12").style.marginLeft = "36%";
+        document.getElementById("colT12").style.left = "36%";
         
         //--- MOVE LEFT --->
         
-        document.getElementById("colT2").style.marginLeft = "44.5%";
+        document.getElementById("colT2").style.left = "44.5%";
         
-        document.getElementById("colT3").style.marginLeft = "54%";
+        document.getElementById("colT3").style.left = "54%";
         
-        document.getElementById("colT5").style.marginLeft = "41%";
+        document.getElementById("colT5").style.left = "41%";
         
-        document.getElementById("colT7").style.marginLeft = "57%";
+        document.getElementById("colT7").style.left = "57%";
         
-        document.getElementById("colT8").style.marginLeft = "63%";
+        document.getElementById("colT8").style.left = "63%";
         
-        document.getElementById("colT9").style.marginLeft = "64%";
+        document.getElementById("colT9").style.left = "64%";
         
     }
     
@@ -3680,6 +3658,8 @@ $(window).scroll(function() {
 });
 
 //-------------- COLLAGE PARALLAX BLUR FUNCTION ------------->
+
+/*
 
 function changeBlur() {
     
@@ -4361,6 +4341,8 @@ function changeBlur() {
         
 window.addEventListener("scroll", changeBlur);
 
+*/
+
 //------------------- SMOKY TEXT EFFECT FUCNTION ------------------>
 
 var phraseArray = [
@@ -4406,6 +4388,8 @@ function nextPhrase() {
 }
 
 smoke();
+
+/*
 
 //------------------ DESERT PICTURE BLUR EFFECT FUNCTION ----------------->
 
@@ -5590,6 +5574,8 @@ $(window).scroll(function() {
     }
     
 });
+
+*/
 
 //----------- REVIEWS INNER OPEN/CLOSE FUNCTION ---------->
 
