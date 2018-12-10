@@ -86,7 +86,7 @@ if ( $(window).width() <= 375) {
 
         var restPosition = window.scrollY;
         
-        alert(restPosition);
+        console.log(restPosition);
 
         if (restPosition >= 800 && restPosition < 840) {
 
@@ -3521,16 +3521,10 @@ if ( $(window).width() < 376) {
 }
 
 */
-
-window.onload = function() {
     
-    w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
+function smartPhoneReviews() {
     
-    var targetWidth = 376;
-    
-    console.log(targetWidth)
-    
-    if ( w &gt< targetWidth) {     
+    if (clientWidth < 376) {     
         
         clickCount = 1;
     

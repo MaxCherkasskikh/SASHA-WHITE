@@ -1392,9 +1392,12 @@ ul {
     position: fixed;
     height: 4%;
     width: 2.2%;
-    top: 3%;
-    right: 0;
+    top: 1.5%;
+    right: 1%;
     padding: 1em;
+    background: none;
+    animation: none;
+    border: none;
     z-index: 999;
 }
  
@@ -1402,8 +1405,8 @@ span.one {
     position: absolute;
     height: 5%;
     width: 95%;
-    top: -13%;
-    left: -39%;
+    top: 32%;
+    left: 0%;
     background: cyan;
     animation: backgroundgradient 50s infinite;
     box-shadow: 2px 2px 4px black;
@@ -1414,8 +1417,8 @@ span.two {
     position: absolute;
     height: 5%;
     width: 95%;
-    top: 18%;
-    left: -39%;
+    top: 63%;
+    left: 0%;
     background: cyan;
     animation: backgroundgradient 50s infinite;
     box-shadow: 2px 2px 4px black;
@@ -1548,6 +1551,10 @@ li:not(:first-child) {
     z-index: 4;
 }
 
+#desertbackgroundimage {
+    display: none;
+}
+
 .desertheaders {
     font-family: 'Rajdhani', sans-serif;
     font-size: 80px;
@@ -1559,7 +1566,7 @@ li:not(:first-child) {
 
 #desertheader1 {
     position: absolute;
-    top: 361.2vh;
+    top: 363.3vh;
     left: 7vw;
     font-size: 5rem;
     z-index: 25;
@@ -1568,7 +1575,7 @@ li:not(:first-child) {
 
 #desertheader2 {
     position: absolute;
-    top: 180.5vh;
+    top: 183.3vh;
     left: 22.3vw;
     font-size: 5rem;
     z-index: 25;
@@ -1577,7 +1584,7 @@ li:not(:first-child) {
 
 #desertheader3 {
     position: absolute;
-    top: 361.2vh;
+    top: 363.3vh;
     left: 38.7vw;
     font-size: 5rem;
     z-index: 25;
@@ -1586,7 +1593,7 @@ li:not(:first-child) {
 
 #desertheader4 {
     position: absolute;
-    top: 180.5vh;
+    top: 183.3vh;
     left: 64.2vw;
     font-size: 5rem;
     z-index: 25;
@@ -1595,7 +1602,7 @@ li:not(:first-child) {
 
 #desertheader5 {
     position: absolute;
-    top: 361.2vh;
+    top: 363.3vh;
     left: 83vw;
     font-size: 5rem;
     z-index: 25;
@@ -4048,6 +4055,10 @@ li:not(:first-child) {
     z-index: 4;
 }
 
+#seconddesertbackgroundimage {
+    display: none;
+}
+
 .quotebox {
     position: absolute;
     height: 50%;
@@ -4436,7 +4447,7 @@ li:not(:first-child) {
     position: absolute;
     height: 85vh;
     width: 50vw;
-    margin-top: 320vh;
+    margin-top: 65vh;
     background: linear-gradient(-200deg, rgba(29, 29, 29, 0), rgba(29, 29, 29, 0.1), rgba(29, 29, 29, 0.2), rgba(29, 29, 29, 0.3), rgba(29, 29, 29, 0.4), rgba(29, 29, 29, 0.5), rgba(29, 29, 29, 0.6), rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.9), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29));
     -webkit-clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
@@ -4448,7 +4459,7 @@ li:not(:first-child) {
     position: absolute;
     height: 85vh;
     width: 50vw;
-    margin-top: 320vh;
+    margin-top: 65vh;
     margin-left: 50vw;
     background: linear-gradient(200deg, rgba(29, 29, 29, 0), rgba(29, 29, 29, 0.1), rgba(29, 29, 29, 0.2), rgba(29, 29, 29, 0.3), rgba(29, 29, 29, 0.4), rgba(29, 29, 29, 0.5), rgba(29, 29, 29, 0.6), rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.9), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29), rgb(29, 29, 29));
     -webkit-clip-path: polygon(0 0, 100% 40%, 100% 100%, 0% 100%);
